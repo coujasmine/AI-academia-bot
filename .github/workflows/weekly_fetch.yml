@@ -1,0 +1,63 @@
+name: Weekly Paper Fetch
+
+on:
+  schedule:
+    # Run every Monday at 08:00 UTC (16:00 Beijing time)
+    - cron: '0 8 * * 1'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-papers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch papers and generate report
+        env:
+          OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+          CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FETCH_DAYS: '7'
+          FILTER_MODE: 'all'
+        run: python main.py --notify --ai-summary
+
+      - name: Commit and push report
+        run: |
+          git config user.name "AI Academia Bot"
+          git config user.email "bot@academia.local"
+          git add reports/
+          if git diff --staged --quiet; then
+            echo "No new reports to commit"
+          else
+            git commit -m "Weekly paper report $(date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Upload report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-report-${{ github.run_number }}
+          path: reports/
+          retention-days: 90

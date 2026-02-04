@@ -1,2 +1,155 @@
-# AI-academia-bot
-This is a bot for new release papers  
+# AI Academia Bot
+
+自动追踪 FT50 和 UTD24 期刊最新发表的学术论文，生成每周文献摘要报告。专注于管理学与创新创业领域。
+
+Automatically tracks the latest publications from FT50 and UTD24 journals, generating weekly literature summary reports with a focus on management, innovation, and entrepreneurship.
+
+## Features
+
+- **Full FT50 + UTD24 Coverage**: Tracks all 50+ journals across both lists with complete ISSN mappings
+- **OpenAlex API Integration**: Primary data source with batch query support (100K requests/day)
+- **Crossref API Fallback**: Optional secondary source for additional coverage
+- **Innovation Focus Mode**: Filter to only track entrepreneurship & innovation-relevant journals
+- **Weekly Markdown Reports**: Organized by research domain with abstracts and metadata
+- **AI-Powered Summaries**: Optional LLM integration for trend analysis (supports OpenAI-compatible APIs)
+- **Notifications**: Email (SMTP) and Feishu/Lark webhook support
+- **GitHub Actions Automation**: Scheduled weekly runs with report archival
+
+## Project Structure
+
+```
+AI-academia-bot/
+├── config/
+│   ├── journals.py        # FT50 & UTD24 journal definitions with ISSNs
+│   └── settings.py        # App configuration (env-based)
+├── src/
+│   ├── fetcher.py         # OpenAlex + Crossref paper fetchers
+│   ├── report.py          # Markdown report generator
+│   └── notify.py          # Email & Feishu notifications
+├── reports/               # Generated weekly reports (gitignored)
+├── .github/workflows/
+│   └── weekly_fetch.yml   # GitHub Actions weekly automation
+├── main.py                # CLI entry point
+├── requirements.txt
+├── .env.example           # Environment variable template
+└── .gitignore
+```
+
+## Quick Start
+
+### 1. Clone and install
+
+```bash
+git clone https://github.com/coujasmine/AI-academia-bot.git
+cd AI-academia-bot
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 2. Configure environment
+
+```bash
+cp .env.example .env
+# Edit .env with your settings (see Configuration section below)
+```
+
+### 3. Run
+
+```bash
+# Fetch all FT50 + UTD24 papers from the last 7 days
+python main.py
+
+# Only innovation & entrepreneurship journals
+python main.py --mode innovation
+
+# Custom time range
+python main.py --days 14
+
+# With AI summary and notifications
+python main.py --ai-summary --notify
+
+# Also use Crossref for additional coverage
+python main.py --crossref
+```
+
+## Configuration
+
+All configuration is done via environment variables (`.env` file):
+
+| Variable | Required | Description |
+|---|---|---|
+| `OPENALEX_EMAIL` | Recommended | Your email for OpenAlex polite pool (faster responses) |
+| `CROSSREF_EMAIL` | Optional | Your email for Crossref polite pool |
+| `LLM_API_KEY` | Optional | API key for AI summaries (OpenAI, DeepSeek, etc.) |
+| `LLM_BASE_URL` | Optional | LLM API base URL (default: OpenAI) |
+| `LLM_MODEL` | Optional | LLM model name (default: gpt-4o-mini) |
+| `SMTP_HOST` | Optional | SMTP server for email notifications |
+| `SMTP_PORT` | Optional | SMTP port (default: 587) |
+| `SMTP_USER` | Optional | SMTP username |
+| `SMTP_PASSWORD` | Optional | SMTP password |
+| `NOTIFY_EMAIL_TO` | Optional | Recipient email address(es) |
+| `FEISHU_WEBHOOK_URL` | Optional | Feishu/Lark webhook URL |
+| `FETCH_DAYS` | Optional | Days to look back (default: 7) |
+| `FILTER_MODE` | Optional | "all", "innovation", "ft50", "utd24" |
+
+## Journal Coverage
+
+### Innovation & Entrepreneurship Core Journals (FT50)
+
+| Journal | Abbr | Category |
+|---|---|---|
+| Entrepreneurship Theory and Practice | ETP | Entrepreneurship |
+| Journal of Business Venturing | JBV | Entrepreneurship |
+| Strategic Entrepreneurship Journal | SEJ | Entrepreneurship |
+| Research Policy | RP | Innovation & Technology Policy |
+
+### Management & Strategy (FT50 + UTD24)
+
+| Journal | Abbr | Lists |
+|---|---|---|
+| Academy of Management Journal | AMJ | FT50 + UTD24 |
+| Academy of Management Review | AMR | FT50 + UTD24 |
+| Administrative Science Quarterly | ASQ | FT50 + UTD24 |
+| Strategic Management Journal | SMJ | FT50 + UTD24 |
+| Organization Science | OrgSci | FT50 + UTD24 |
+| Management Science | MS | FT50 + UTD24 |
+| Journal of Management | JOM | FT50 |
+| Journal of Management Studies | JMS | FT50 |
+
+Plus 40+ additional journals across Accounting, Finance, Marketing, IS, Operations, Economics, OB/HR, and Ethics.
+
+## GitHub Actions Automation
+
+The bot runs automatically every Monday at 08:00 UTC (16:00 Beijing time) via GitHub Actions.
+
+### Setup
+
+1. Go to your repository **Settings > Secrets and variables > Actions**
+2. Add the following secrets:
+   - `OPENALEX_EMAIL` (recommended)
+   - `LLM_API_KEY` (optional, for AI summaries)
+   - `NOTIFY_EMAIL_TO`, `SMTP_HOST`, `SMTP_USER`, `SMTP_PASSWORD` (optional, for email)
+   - `FEISHU_WEBHOOK_URL` (optional, for Feishu)
+
+3. The workflow will:
+   - Fetch papers from all FT50/UTD24 journals
+   - Generate a Markdown report with AI summary
+   - Commit the report to the `reports/` directory
+   - Send notifications via configured channels
+   - Archive the report as a GitHub Actions artifact (90-day retention)
+
+### Manual trigger
+
+You can also trigger the workflow manually from the Actions tab in GitHub.
+
+## API Sources
+
+| Source | Role | Auth | Rate Limit | Batch Support |
+|---|---|---|---|---|
+| [OpenAlex](https://openalex.org) | Primary | Email (polite pool) | 100K/day | Yes (50 sources) |
+| [Crossref](https://www.crossref.org) | Secondary | Email (polite pool) | Dynamic | No |
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
