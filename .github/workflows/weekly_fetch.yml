@@ -26,22 +26,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch papers, generate report, and archive
+      - name: Fetch papers and archive
         env:
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
-          CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
-          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
-          FETCH_DAYS: '7'
+          FETCH_DAYS: '60'
           FILTER_MODE: 'all'
-        run: python main.py --ai-summary --archive --notify
+        run: python main.py --archive
 
       - name: Commit and push archives
         run: |
