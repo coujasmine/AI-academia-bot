@@ -1,6 +1,6 @@
 # Weekly Academic Paper Summary (2026-02-04)
 
-**Generated:** 2026-02-04 17:25:56
+**Generated:** 2026-02-04 17:26:40
 
 **Total papers:** 49
 
