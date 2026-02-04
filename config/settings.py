@@ -30,9 +30,13 @@ LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.openai.com/v1")
 LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4o-mini")
 
 # ── Fetch Settings ────────────────────────────────────────────────────
-# How many days back to look for new papers (default: 60 for ~2 months)
+# How many days back to look for new papers (default: 7 for weekly)
 _fetch_days_raw = os.getenv("FETCH_DAYS", "")
-FETCH_DAYS = int(_fetch_days_raw) if _fetch_days_raw.strip() else 60
+FETCH_DAYS = int(_fetch_days_raw) if _fetch_days_raw.strip() else 7
+
+# How many days of archives to keep (default: 60, ~2 months / ~8 weeks)
+_retention_raw = os.getenv("ARCHIVE_RETENTION_DAYS", "")
+ARCHIVE_RETENTION_DAYS = int(_retention_raw) if _retention_raw.strip() else 60
 
 # Filter mode: "all" = all FT50+UTD24, "innovation" = only high-relevance
 FILTER_MODE = os.getenv("FILTER_MODE", "all")

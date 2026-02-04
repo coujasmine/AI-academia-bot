@@ -8,12 +8,12 @@ Automatically maintains a history table in the project README.
 
 import json
 import logging
-import os
 import re
-from datetime import datetime
+import shutil
+from datetime import datetime, timedelta
 from pathlib import Path
 
-from config.settings import BASE_DIR
+from config.settings import BASE_DIR, ARCHIVE_RETENTION_DAYS
 
 logger = logging.getLogger(__name__)
 
@@ -48,6 +48,7 @@ class ArchiveManager:
 
         self._save_json(papers)
         self._save_markdown(papers, report_path)
+        self._cleanup_old_archives()
         self._update_readme_index()
 
         logger.info("Archive saved to: %s", self.current_dir)
@@ -103,6 +104,26 @@ class ArchiveManager:
 
         dest.write_text("\n".join(lines), encoding="utf-8")
         logger.info("Minimal Markdown report generated: %s", dest)
+
+    def _cleanup_old_archives(self):
+        """Remove archive folders older than ARCHIVE_RETENTION_DAYS (~2 months)."""
+        if not self.root_dir.exists():
+            return
+
+        cutoff = datetime.now() - timedelta(days=ARCHIVE_RETENTION_DAYS)
+        cutoff_str = cutoff.strftime("%Y-%m-%d")
+        removed = 0
+
+        for d in list(self.root_dir.iterdir()):
+            if not d.is_dir() or not re.match(r"\d{4}-\d{2}-\d{2}", d.name):
+                continue
+            if d.name < cutoff_str:
+                shutil.rmtree(d)
+                removed += 1
+                logger.info("Removed old archive: %s", d.name)
+
+        if removed:
+            logger.info("Cleaned up %d archive(s) older than %d days", removed, ARCHIVE_RETENTION_DAYS)
 
     def _update_readme_index(self):
         """Update the history reports table in README.md between archive markers."""
