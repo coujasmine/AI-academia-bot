@@ -13,7 +13,8 @@ dist/
 build/
 
 # Reports (generated files)
-reports/*.md
+reports/
+
 
 # IDE
 .vscode/
