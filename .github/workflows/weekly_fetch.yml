@@ -2,9 +2,8 @@ name: Weekly Paper Fetch & Archive
 
 on:
   schedule:
-    # Run every Monday at 08:00 UTC (16:00 Beijing time)
     - cron: '0 8 * * 1'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,10 +11,14 @@ permissions:
 jobs:
   fetch-and-archive:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,12 +36,25 @@ jobs:
           ARCHIVE_RETENTION_DAYS: '60'
           FILTER_MODE: 'all'
         run: python main.py --archive
-
       - name: Commit and push archives
         run: |
           git config user.name "AI Academia Bot"
           git config user.email "bot@academia.local"
-          # Stage new archives, updated README, and any deleted old archives
+
+          # Avoid occasional conflicts if manual trigger overlaps schedule
+          git pull --rebase
+
+          # Stage new/changed archives and README (and deletions inside archives)
+          git add archives/ README.md
+          git add -u archives/
+
+          if git diff --staged --quiet; then
+            echo "No new changes to commit"
+          else
+            git commit -m "Weekly paper archive $(date +%Y-%m-%d)"
+            git push
+          fi
+          
           git add archives/ README.md
           git add -u archives/
           if git diff --staged --quiet; then
