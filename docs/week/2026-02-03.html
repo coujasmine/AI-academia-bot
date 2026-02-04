@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week of 2026-02-03 - AI Academia Bot</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="nav-back">&larr; Back to Archive</a>
+
+    <h1>Week of 2026-02-03</h1>
+    <div class="stats" style="justify-content:flex-start; margin: 1rem 0;">
+      <div class="stat">
+        <div class="stat-value">2</div>
+        <div class="stat-label">Papers</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">2</div>
+        <div class="stat-label">FT50</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">1</div>
+        <div class="stat-label">UTD24</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">2</div>
+        <div class="stat-label">Innovation</div>
+      </div>
+    </div>
+
+    <input type="text" class="search-box" placeholder="Search papers by title, author, or abstract..." id="searchBox">
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="Entrepreneurship">Entrepreneurship</button><button class="filter-btn" data-filter="Strategy">Strategy</button>
+    </div>
+
+    <div id="paperList">
+      
+    <div class="category-section" data-category="Entrepreneurship">
+      <h2>Entrepreneurship (1)</h2>
+      
+      <div class="paper-card">
+        <h3><a href="https://doi.org/10.1016/j.jbusvent.2026.01.001" target="_blank">Digital Platform Ecosystems and New Venture Performance</a></h3>
+        <p class="paper-meta">
+          Journal of Business Venturing (JBV) &middot; 2026-01-28
+           &middot; Smith, J., Zhang, L., Kumar, R.
+        </p>
+        <p class="paper-abstract">This study examines how digital platform ecosystems shape new venture creation and performance outcomes.</p>
+        <div class="tags"><span class="tag tag-ft50">FT50</span><span class="tag tag-innovation">Innovation</span></div>
+      </div>
+    </div>
+    <div class="category-section" data-category="Strategy">
+      <h2>Strategy (1)</h2>
+      
+      <div class="paper-card">
+        <h3><a href="https://doi.org/10.1002/smj.3650" target="_blank">Corporate Venture Capital and Strategic Renewal</a></h3>
+        <p class="paper-meta">
+          Strategic Management Journal (SMJ) &middot; 2026-01-31
+           &middot; Fischer, D., Lee, J.
+        </p>
+        <p class="paper-abstract">How does corporate venture capital investment facilitate strategic renewal in incumbent firms?</p>
+        <div class="tags"><span class="tag tag-ft50">FT50</span><span class="tag tag-utd24">UTD24</span><span class="tag tag-innovation">Innovation</span></div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <footer>
+    Powered by <a href="https://openalex.org">OpenAlex</a> &middot;
+    <a href="https://github.com/coujasmine/AI-academia-bot">GitHub</a>
+  </footer>
+
+  <script>
+    // Category filter
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.category-section').forEach(sec => {
+          sec.classList.toggle('hidden', filter !== 'all' && sec.dataset.category !== filter);
+        });
+      });
+    });
+
+    // Search
+    document.getElementById('searchBox').addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      document.querySelectorAll('.paper-card').forEach(card => {
+        card.classList.toggle('hidden', q && !card.textContent.toLowerCase().includes(q));
+      });
+    });
+  </script>
+</body>
+</html>

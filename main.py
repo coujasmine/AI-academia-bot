@@ -3,10 +3,10 @@
 AI Academia Bot - Weekly paper summary from FT50 & UTD24 journals.
 
 Usage:
-    python main.py --archive                 # Fetch & archive (last 60 days)
-    python main.py --mode innovation --archive  # Innovation journals only
-    python main.py --days 14 --archive       # Look back 14 days
-    python main.py --crossref --archive      # Also query Crossref
+    python main.py --archive              # Fetch & archive (last 7 days)
+    python main.py --archive --site       # Also rebuild GitHub Pages site
+    python main.py --mode innovation      # Innovation journals only
+    python main.py --days 14 --archive    # Look back 14 days
 """
 
 import argparse
@@ -18,6 +18,7 @@ from config.settings import FETCH_DAYS, FILTER_MODE
 from src.archive import ArchiveManager
 from src.fetcher import fetch_all_papers
 from src.report import generate_report, generate_ai_summary
+from src.site_generator import generate_site
 
 logging.basicConfig(
     level=logging.INFO,
@@ -57,6 +58,11 @@ def main():
         "--archive",
         action="store_true",
         help="Archive report to archives/YYYY-MM-DD/ and update README index",
+    )
+    parser.add_argument(
+        "--site",
+        action="store_true",
+        help="Rebuild GitHub Pages site from all archives (docs/)",
     )
     args = parser.parse_args()
 
@@ -114,6 +120,11 @@ def main():
         archive_dir = archiver.save(papers, report_path)
         logger.info("Archived to: %s", archive_dir)
 
+    # Rebuild GitHub Pages site if requested
+    if args.site:
+        logger.info("Rebuilding GitHub Pages site...")
+        generate_site()
+
     # Print summary to console
     print(f"\n{'='*60}")
     print(f"Weekly Report Generated Successfully")
@@ -125,6 +136,8 @@ def main():
     print(f"Report: {report_path}")
     if args.archive:
         print(f"Archive: archives/{archiver.today}/")
+    if args.site:
+        print(f"Site: docs/index.html")
     print(f"{'='*60}\n")
 
     return 0
