@@ -185,7 +185,13 @@ You can also trigger the workflow manually from the Actions tab in GitHub.
 ---
 
 <!-- ARCHIVE_START -->
-<!-- Bot will automatically update the history reports table here -->
+
+## History Reports
+
+| Date | Report | Data |
+|---|---|---|
+| 2026-02-04 | [Report](archives/2026-02-04/report.md) | [JSON](archives/2026-02-04/data.json) |
+
 <!-- ARCHIVE_END -->
 
 ## License
@@ -193,4 +199,11 @@ You can also trigger the workflow manually from the Actions tab in GitHub.
 MIT License - see [LICENSE](LICENSE) for details.
 
 <!-- ARCHIVE_START -->
+
+## History Reports
+
+| Date | Report | Data |
+|---|---|---|
+| 2026-02-04 | [Report](archives/2026-02-04/report.md) | [JSON](archives/2026-02-04/data.json) |
+
 <!-- ARCHIVE_END -->
