@@ -14,7 +14,7 @@ import argparse
 import logging
 import sys
 
-from config.journals import get_journals
+from config.journals import get_journals, INNOVATION_TAGS
 from config.settings import FETCH_DAYS, FILTER_MODE
 from src.fetcher import fetch_all_papers
 from src.report import generate_report, generate_ai_summary
@@ -63,7 +63,7 @@ def main():
 
     # Select journals based on mode
     if args.mode == "innovation":
-        journals = get_journals(relevance="high")
+        journals = get_journals(tags=INNOVATION_TAGS)
         logger.info("Mode: innovation-focused (%d journals)", len(journals))
     elif args.mode == "ft50":
         journals = get_journals(list_name="ft50")
