@@ -3,11 +3,10 @@
 AI Academia Bot - Weekly paper summary from FT50 & UTD24 journals.
 
 Usage:
-    python main.py                    # Fetch all FT50+UTD24 papers
-    python main.py --mode innovation  # Only innovation-relevant journals
-    python main.py --days 14          # Look back 14 days
-    python main.py --crossref         # Also query Crossref
-    python main.py --notify           # Send notifications after report
+    python main.py --archive                 # Fetch & archive (last 60 days)
+    python main.py --mode innovation --archive  # Innovation journals only
+    python main.py --days 14 --archive       # Look back 14 days
+    python main.py --crossref --archive      # Also query Crossref
 """
 
 import argparse
@@ -19,7 +18,6 @@ from config.settings import FETCH_DAYS, FILTER_MODE
 from src.archive import ArchiveManager
 from src.fetcher import fetch_all_papers
 from src.report import generate_report, generate_ai_summary
-from src.notify import notify_report
 
 logging.basicConfig(
     level=logging.INFO,
@@ -49,11 +47,6 @@ def main():
         "--crossref",
         action="store_true",
         help="Also query Crossref API for additional coverage",
-    )
-    parser.add_argument(
-        "--notify",
-        action="store_true",
-        help="Send email/Feishu notification after generating report",
     )
     parser.add_argument(
         "--ai-summary",
@@ -133,11 +126,6 @@ def main():
     if args.archive:
         print(f"Archive: archives/{archiver.today}/")
     print(f"{'='*60}\n")
-
-    # Send notifications
-    if args.notify:
-        logger.info("Sending notifications...")
-        notify_report(report_path, len(papers))
 
     return 0
 

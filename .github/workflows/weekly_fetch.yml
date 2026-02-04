@@ -29,23 +29,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch papers, generate report, and archive
+      - name: Fetch weekly papers and archive
         env:
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
-          CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
-          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           FETCH_DAYS: '7'
+          ARCHIVE_RETENTION_DAYS: '60'
           FILTER_MODE: 'all'
-        run: python main.py --ai-summary --archive --notify
-
+        run: python main.py --archive
       - name: Commit and push archives
         run: |
           git config user.name "AI Academia Bot"
@@ -54,9 +44,21 @@ jobs:
           # Avoid occasional conflicts if manual trigger overlaps schedule
           git pull --rebase
 
+          # Stage new/changed archives and README (and deletions inside archives)
           git add archives/ README.md
+          git add -u archives/
+
           if git diff --staged --quiet; then
-            echo "No new archives to commit"
+            echo "No new changes to commit"
+          else
+            git commit -m "Weekly paper archive $(date +%Y-%m-%d)"
+            git push
+          fi
+          
+          git add archives/ README.md
+          git add -u archives/
+          if git diff --staged --quiet; then
+            echo "No new changes to commit"
           else
             git commit -m "Weekly paper archive $(date +%Y-%m-%d)"
             git push

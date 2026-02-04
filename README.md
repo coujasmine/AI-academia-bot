@@ -11,13 +11,14 @@ Automatically tracks the latest publications from FT50 and UTD24 journals, gener
 ## Features
 
 - **Full FT50 + UTD24 Coverage**: Tracks all 50+ journals across both lists with complete ISSN mappings
+- **Weekly Archiving**: Each week's new papers saved to `archives/YYYY-MM-DD/` with Markdown + JSON
+- **2-Month Retention**: Automatically cleans up archives older than 60 days (~8 weeks)
 - **OpenAlex API Integration**: Primary data source with batch query support (100K requests/day)
 - **Crossref API Fallback**: Optional secondary source for additional coverage
 - **Innovation Focus Mode**: Filter to only track entrepreneurship & innovation-relevant journals
-- **Weekly Markdown Reports**: Organized by research domain with abstracts and metadata
+- **Auto README Index**: History reports table in README updated automatically
 - **AI-Powered Summaries**: Optional LLM integration for trend analysis (supports OpenAI-compatible APIs)
-- **Notifications**: Email (SMTP) and Feishu/Lark webhook support
-- **GitHub Actions Automation**: Scheduled weekly runs with report archival
+- **GitHub Actions Automation**: Scheduled weekly runs, archives committed to git
 
 ## Project Structure
 
@@ -29,8 +30,7 @@ AI-academia-bot/
 ├── src/
 │   ├── fetcher.py         # OpenAlex + Crossref paper fetchers
 │   ├── report.py          # Markdown report generator
-│   ├── archive.py         # Date-based archiving & README index updater
-│   └── notify.py          # Email & Feishu notifications
+│   └── archive.py         # Date-based archiving & README index updater
 ├── archives/              # Archived reports by date (committed to git)
 │   └── 2026-02-03/
 │       ├── report.md      # Human-readable report
@@ -67,26 +67,20 @@ cp .env.example .env
 ### 3. Run
 
 ```bash
-# Fetch all FT50 + UTD24 papers from the last 7 days
-python main.py
-
-# Only innovation & entrepreneurship journals
-python main.py --mode innovation
-
-# Custom time range
-python main.py --days 14
-
-# With AI summary and notifications
-python main.py --ai-summary --notify
-
-# Also use Crossref for additional coverage
-python main.py --crossref
-
-# Archive report to archives/YYYY-MM-DD/ and update README index
+# Fetch this week's papers and archive (default: last 7 days)
 python main.py --archive
 
-# Full pipeline: fetch, summarize, archive, and notify
-python main.py --ai-summary --archive --notify
+# Only innovation & entrepreneurship journals
+python main.py --mode innovation --archive
+
+# Custom time range
+python main.py --days 14 --archive
+
+# With optional AI summary
+python main.py --ai-summary --archive
+
+# Also use Crossref for additional coverage
+python main.py --crossref --archive
 ```
 
 ## Configuration
@@ -100,14 +94,9 @@ All configuration is done via environment variables (`.env` file):
 | `LLM_API_KEY` | Optional | API key for AI summaries (OpenAI, DeepSeek, etc.) |
 | `LLM_BASE_URL` | Optional | LLM API base URL (default: OpenAI) |
 | `LLM_MODEL` | Optional | LLM model name (default: gpt-4o-mini) |
-| `SMTP_HOST` | Optional | SMTP server for email notifications |
-| `SMTP_PORT` | Optional | SMTP port (default: 587) |
-| `SMTP_USER` | Optional | SMTP username |
-| `SMTP_PASSWORD` | Optional | SMTP password |
-| `NOTIFY_EMAIL_TO` | Optional | Recipient email address(es) |
-| `FEISHU_WEBHOOK_URL` | Optional | Feishu/Lark webhook URL |
-| `FETCH_DAYS` | Optional | Days to look back (default: 7) |
+| `FETCH_DAYS` | Optional | Days to look back per run (default: 7) |
 | `FILTER_MODE` | Optional | "all", "innovation", "ft50", "utd24" |
+| `ARCHIVE_RETENTION_DAYS` | Optional | Days of archives to keep (default: 60, ~2 months) |
 
 > **Cost Note on AI Summary:** When using `--ai-summary` with `--mode all`, the bot sends up to 30 paper titles and truncated abstracts to your LLM. With `gpt-4o-mini` this typically costs < $0.01 per run. However, if you switch to larger models (e.g., `gpt-4o`, `claude-3.5-sonnet`), expect higher costs. You can control this by adjusting `LLM_MODEL` or using `--mode innovation` to reduce the number of papers sent to the LLM.
 
@@ -171,19 +160,15 @@ The bot runs automatically every Monday at 08:00 UTC (16:00 Beijing time) via Gi
 ### Setup
 
 1. Go to your repository **Settings > Secrets and variables > Actions**
-2. Add the following secrets:
-   - `OPENALEX_EMAIL` (recommended)
-   - `LLM_API_KEY` (optional, for AI summaries)
-   - `NOTIFY_EMAIL_TO`, `SMTP_HOST`, `SMTP_USER`, `SMTP_PASSWORD` (optional, for email)
-   - `FEISHU_WEBHOOK_URL` (optional, for Feishu)
+2. Add the following secret:
+   - `OPENALEX_EMAIL` (recommended, for faster API responses)
 
 3. The workflow will:
-   - Fetch papers from all FT50/UTD24 journals
-   - Generate a Markdown report with AI summary
-   - Archive to `archives/YYYY-MM-DD/` with both Markdown and JSON
+   - Fetch the last 7 days of papers from all FT50/UTD24 journals
+   - Save to `archives/YYYY-MM-DD/` (Markdown + JSON)
+   - Auto-delete archives older than 60 days (~2 months)
    - Auto-update the History Reports table in README
-   - Commit archives + updated README to git
-   - Send notifications via configured channels
+   - Commit and push changes (new archives + deleted old ones)
    - Upload report as a GitHub Actions artifact (90-day retention)
 
 ### Manual trigger

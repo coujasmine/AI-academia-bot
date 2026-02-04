@@ -32,20 +32,14 @@ LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.openai.com/v1")
 LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4o-mini")
 
-# ── Notification (optional) ───────────────────────────────────────────
-# Email
-SMTP_HOST = os.getenv("SMTP_HOST", "")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
-SMTP_USER = os.getenv("SMTP_USER", "")
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
-NOTIFY_EMAIL_TO = os.getenv("NOTIFY_EMAIL_TO", "")
-
-# Feishu / Lark webhook (optional)
-FEISHU_WEBHOOK_URL = os.getenv("FEISHU_WEBHOOK_URL", "")
-
 # ── Fetch Settings ────────────────────────────────────────────────────
 # How many days back to look for new papers (default: 7 for weekly)
-FETCH_DAYS = int(os.getenv("FETCH_DAYS", "7"))
+_fetch_days_raw = os.getenv("FETCH_DAYS", "")
+FETCH_DAYS = int(_fetch_days_raw) if _fetch_days_raw.strip() else 7
+
+# How many days of archives to keep (default: 60, ~2 months / ~8 weeks)
+_retention_raw = os.getenv("ARCHIVE_RETENTION_DAYS", "")
+ARCHIVE_RETENTION_DAYS = int(_retention_raw) if _retention_raw.strip() else 60
 
 # Filter mode: "all" = all FT50+UTD24, "innovation" = only high-relevance
 FILTER_MODE = os.getenv("FILTER_MODE", "all")
