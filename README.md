@@ -29,8 +29,14 @@ AI-academia-bot/
 ├── src/
 │   ├── fetcher.py         # OpenAlex + Crossref paper fetchers
 │   ├── report.py          # Markdown report generator
+│   ├── archive.py         # Date-based archiving & README index updater
 │   └── notify.py          # Email & Feishu notifications
-├── reports/               # Generated weekly reports (gitignored)
+├── archives/              # Archived reports by date (committed to git)
+│   └── 2026-02-03/
+│       ├── report.md      # Human-readable report
+│       └── data.json      # Machine-readable paper data
+├── reports/               # Latest report output (gitignored)
+├── samples/               # Sample report for reference
 ├── .github/workflows/
 │   └── weekly_fetch.yml   # GitHub Actions weekly automation
 ├── main.py                # CLI entry point
@@ -75,6 +81,12 @@ python main.py --ai-summary --notify
 
 # Also use Crossref for additional coverage
 python main.py --crossref
+
+# Archive report to archives/YYYY-MM-DD/ and update README index
+python main.py --archive
+
+# Full pipeline: fetch, summarize, archive, and notify
+python main.py --ai-summary --archive --notify
 ```
 
 ## Configuration
@@ -168,9 +180,11 @@ The bot runs automatically every Monday at 08:00 UTC (16:00 Beijing time) via Gi
 3. The workflow will:
    - Fetch papers from all FT50/UTD24 journals
    - Generate a Markdown report with AI summary
-   - Commit the report to the `reports/` directory
+   - Archive to `archives/YYYY-MM-DD/` with both Markdown and JSON
+   - Auto-update the History Reports table in README
+   - Commit archives + updated README to git
    - Send notifications via configured channels
-   - Archive the report as a GitHub Actions artifact (90-day retention)
+   - Upload report as a GitHub Actions artifact (90-day retention)
 
 ### Manual trigger
 
@@ -182,6 +196,12 @@ You can also trigger the workflow manually from the Actions tab in GitHub.
 |---|---|---|---|---|
 | [OpenAlex](https://openalex.org) | Primary | Email (polite pool) | 100K/day | Yes (50 sources) |
 | [Crossref](https://www.crossref.org) | Secondary | Email (polite pool) | Dynamic | No |
+
+---
+
+<!-- ARCHIVE_START -->
+<!-- Bot will automatically update the history reports table here -->
+<!-- ARCHIVE_END -->
 
 ## License
 

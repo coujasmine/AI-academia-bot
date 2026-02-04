@@ -16,6 +16,7 @@ import sys
 
 from config.journals import get_journals, INNOVATION_TAGS
 from config.settings import FETCH_DAYS, FILTER_MODE
+from src.archive import ArchiveManager
 from src.fetcher import fetch_all_papers
 from src.report import generate_report, generate_ai_summary
 from src.notify import notify_report
@@ -58,6 +59,11 @@ def main():
         "--ai-summary",
         action="store_true",
         help="Generate AI-powered summary (requires LLM_API_KEY)",
+    )
+    parser.add_argument(
+        "--archive",
+        action="store_true",
+        help="Archive report to archives/YYYY-MM-DD/ and update README index",
     )
     args = parser.parse_args()
 
@@ -108,6 +114,13 @@ def main():
             f.write("\n")
         logger.info("AI summary appended to report")
 
+    # Archive to dated folder if requested
+    if args.archive:
+        logger.info("Archiving report...")
+        archiver = ArchiveManager()
+        archive_dir = archiver.save(papers, report_path)
+        logger.info("Archived to: %s", archive_dir)
+
     # Print summary to console
     print(f"\n{'='*60}")
     print(f"Weekly Report Generated Successfully")
@@ -117,6 +130,8 @@ def main():
     print(f"UTD24 papers: {sum(1 for p in papers if p.get('in_utd24'))}")
     print(f"Innovation-relevant: {sum(1 for p in papers if p.get('innovation_relevance') == 'high')}")
     print(f"Report: {report_path}")
+    if args.archive:
+        print(f"Archive: archives/{archiver.today}/")
     print(f"{'='*60}\n")
 
     # Send notifications
