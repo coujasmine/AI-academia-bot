@@ -206,3 +206,6 @@ You can also trigger the workflow manually from the Actions tab in GitHub.
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
+<!-- ARCHIVE_START -->
+<!-- ARCHIVE_END -->
