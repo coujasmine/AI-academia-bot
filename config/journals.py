@@ -9,6 +9,7 @@ Each journal entry contains:
 - in_ft50: Whether it's in the FT50 list
 - in_utd24: Whether it's in the UTD24 list
 - innovation_relevance: Relevance to innovation & entrepreneurship (high/medium/low)
+- tags: Semantic tags for flexible filtering (e.g., --mode innovation)
 """
 
 JOURNALS = [
@@ -23,6 +24,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "high",
+        "tags": ["entrepreneurship", "innovation", "new-ventures"],
     },
     {
         "name": "Journal of Business Venturing",
@@ -32,6 +34,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "high",
+        "tags": ["entrepreneurship", "innovation", "venture-capital", "new-ventures"],
     },
     {
         "name": "Strategic Entrepreneurship Journal",
@@ -41,6 +44,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "high",
+        "tags": ["entrepreneurship", "innovation", "strategy"],
     },
     {
         "name": "Research Policy",
@@ -50,6 +54,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "high",
+        "tags": ["innovation", "technology-policy", "r-and-d"],
     },
 
     # ============================================================
@@ -63,6 +68,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "high",
+        "tags": ["management", "innovation", "entrepreneurship", "organization"],
     },
     {
         "name": "Academy of Management Review",
@@ -72,6 +78,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "high",
+        "tags": ["management", "innovation", "theory"],
     },
     {
         "name": "Administrative Science Quarterly",
@@ -81,6 +88,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "high",
+        "tags": ["management", "innovation", "organization"],
     },
     {
         "name": "Strategic Management Journal",
@@ -90,6 +98,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "high",
+        "tags": ["strategy", "innovation", "entrepreneurship", "competitive-advantage"],
     },
     {
         "name": "Organization Science",
@@ -99,6 +108,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "high",
+        "tags": ["organization", "innovation", "management"],
     },
     {
         "name": "Management Science",
@@ -108,6 +118,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "medium",
+        "tags": ["management", "decision-science", "operations"],
     },
     {
         "name": "Journal of International Business Studies",
@@ -117,6 +128,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "medium",
+        "tags": ["international-business", "strategy", "entrepreneurship"],
     },
     {
         "name": "Journal of Management",
@@ -126,6 +138,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "high",
+        "tags": ["management", "innovation", "entrepreneurship", "organization"],
     },
     {
         "name": "Journal of Management Studies",
@@ -135,6 +148,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "high",
+        "tags": ["management", "innovation", "organization"],
     },
     {
         "name": "Organization Studies",
@@ -144,6 +158,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "medium",
+        "tags": ["organization", "management"],
     },
 
     # ============================================================
@@ -157,6 +172,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["ob", "hr"],
     },
     {
         "name": "Human Resource Management",
@@ -166,6 +182,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["hr", "management"],
     },
     {
         "name": "Journal of Applied Psychology",
@@ -175,6 +192,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["ob", "psychology"],
     },
     {
         "name": "Organizational Behavior and Human Decision Processes",
@@ -184,6 +202,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["ob", "decision-making"],
     },
 
     # ============================================================
@@ -197,6 +216,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["marketing", "consumer-behavior"],
     },
     {
         "name": "Journal of Marketing",
@@ -206,6 +226,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "medium",
+        "tags": ["marketing", "innovation"],
     },
     {
         "name": "Journal of Marketing Research",
@@ -215,6 +236,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["marketing"],
     },
     {
         "name": "Marketing Science",
@@ -224,6 +246,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["marketing"],
     },
     {
         "name": "Journal of Consumer Psychology",
@@ -233,6 +256,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["marketing", "consumer-behavior", "psychology"],
     },
     {
         "name": "Journal of the Academy of Marketing Science",
@@ -242,6 +266,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["marketing"],
     },
 
     # ============================================================
@@ -255,6 +280,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["accounting"],
     },
     {
         "name": "Journal of Accounting and Economics",
@@ -264,6 +290,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["accounting", "economics"],
     },
     {
         "name": "Journal of Accounting Research",
@@ -273,6 +300,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["accounting"],
     },
     {
         "name": "Accounting, Organizations and Society",
@@ -282,6 +310,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["accounting", "organization"],
     },
     {
         "name": "Contemporary Accounting Research",
@@ -291,6 +320,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["accounting"],
     },
     {
         "name": "Review of Accounting Studies",
@@ -300,6 +330,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["accounting"],
     },
 
     # ============================================================
@@ -313,6 +344,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["finance"],
     },
     {
         "name": "Journal of Financial Economics",
@@ -322,6 +354,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["finance"],
     },
     {
         "name": "Review of Financial Studies",
@@ -331,6 +364,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["finance"],
     },
     {
         "name": "Journal of Financial and Quantitative Analysis",
@@ -340,6 +374,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["finance"],
     },
     {
         "name": "Review of Finance",
@@ -349,6 +384,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["finance"],
     },
 
     # ============================================================
@@ -362,6 +398,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "medium",
+        "tags": ["economics", "innovation"],
     },
     {
         "name": "Econometrica",
@@ -371,6 +408,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["economics", "econometrics"],
     },
     {
         "name": "Journal of Political Economy",
@@ -380,6 +418,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["economics"],
     },
     {
         "name": "Quarterly Journal of Economics",
@@ -389,6 +428,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["economics"],
     },
     {
         "name": "Review of Economic Studies",
@@ -398,6 +438,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "low",
+        "tags": ["economics"],
     },
 
     # ============================================================
@@ -411,6 +452,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "medium",
+        "tags": ["information-systems", "innovation", "technology"],
     },
     {
         "name": "MIS Quarterly",
@@ -420,6 +462,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "medium",
+        "tags": ["information-systems", "innovation", "technology"],
     },
     {
         "name": "Journal of Management Information Systems",
@@ -429,6 +472,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "medium",
+        "tags": ["information-systems", "technology"],
     },
     {
         "name": "INFORMS Journal on Computing",
@@ -438,6 +482,7 @@ JOURNALS = [
         "in_ft50": False,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["information-systems", "computing"],
     },
 
     # ============================================================
@@ -451,6 +496,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["operations-research"],
     },
     {
         "name": "Journal of Operations Management",
@@ -460,6 +506,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "medium",
+        "tags": ["operations-management", "innovation"],
     },
     {
         "name": "Manufacturing and Service Operations Management",
@@ -469,6 +516,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["operations-management"],
     },
     {
         "name": "Production and Operations Management",
@@ -478,6 +526,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": True,
         "innovation_relevance": "low",
+        "tags": ["operations-management"],
     },
 
     # ============================================================
@@ -491,6 +540,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "medium",
+        "tags": ["ethics", "social-entrepreneurship"],
     },
 
     # ============================================================
@@ -504,6 +554,7 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "high",
+        "tags": ["practitioner", "innovation", "entrepreneurship", "strategy"],
     },
     {
         "name": "MIT Sloan Management Review",
@@ -513,19 +564,26 @@ JOURNALS = [
         "in_ft50": True,
         "in_utd24": False,
         "innovation_relevance": "high",
+        "tags": ["practitioner", "innovation", "technology", "strategy"],
     },
 ]
 
 
-def get_journals(list_name=None, relevance=None):
-    """Filter journals by list membership and/or innovation relevance.
+# ── Tag constants for --mode innovation ──────────────────────────────
+INNOVATION_TAGS = {"innovation", "entrepreneurship", "new-ventures", "venture-capital",
+                   "technology-policy", "r-and-d", "social-entrepreneurship"}
+
+
+def get_journals(list_name=None, relevance=None, tags=None):
+    """Filter journals by list membership, innovation relevance, and/or tags.
 
     Args:
-        list_name: "ft50", "utd24", or None for all
-        relevance: "high", "medium", "low", or None for all
+        list_name: "ft50", "utd24", or None for all.
+        relevance: "high", "medium", "low", or None for all.
+        tags: Iterable of tags. A journal matches if it has ANY of these tags.
 
     Returns:
-        List of matching journal dicts
+        List of matching journal dicts.
     """
     results = JOURNALS
     if list_name == "ft50":
@@ -534,6 +592,9 @@ def get_journals(list_name=None, relevance=None):
         results = [j for j in results if j["in_utd24"]]
     if relevance:
         results = [j for j in results if j["innovation_relevance"] == relevance]
+    if tags:
+        tag_set = set(tags)
+        results = [j for j in results if tag_set & set(j.get("tags", []))]
     return results
 
 

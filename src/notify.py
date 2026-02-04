@@ -2,7 +2,6 @@
 Notification module for sending reports via email or webhook.
 """
 
-import json
 import logging
 import smtplib
 from email.mime.multipart import MIMEMultipart
