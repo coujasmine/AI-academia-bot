@@ -1,12 +1,15 @@
 """
 Application settings and configuration.
 """
-
 import os
-from pathlib import Path
-from dotenv import load_dotenv
 
-load_dotenv()
+def _env_int(name: str, default: int) -> int:
+    v = os.getenv(name)
+    if v is None or str(v).strip() == "":
+        return default
+    return int(v)
+
+SMTP_PORT = _env_int("SMTP_PORT", 587)
 
 # ── Paths ──────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
