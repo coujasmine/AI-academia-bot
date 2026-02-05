@@ -190,6 +190,7 @@ You can also trigger the workflow manually from the Actions tab in GitHub.
 
 | Date | Report | Data |
 |---|---|---|
+| 2026-02-05 | [Report](archives/2026-02-05/report.md) | [JSON](archives/2026-02-05/data.json) |
 | 2026-02-04 | [Report](archives/2026-02-04/report.md) | [JSON](archives/2026-02-04/data.json) |
 
 <!-- ARCHIVE_END -->
@@ -204,6 +205,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 | Date | Report | Data |
 |---|---|---|
+| 2026-02-05 | [Report](archives/2026-02-05/report.md) | [JSON](archives/2026-02-05/data.json) |
 | 2026-02-04 | [Report](archives/2026-02-04/report.md) | [JSON](archives/2026-02-04/data.json) |
 
 <!-- ARCHIVE_END -->
