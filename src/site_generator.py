@@ -5,8 +5,8 @@ Reads archived paper data (archives/*/data.json) and generates a set of
 static HTML pages under docs/ that can be served by GitHub Pages.
 
 Pages generated:
-  - docs/index.html        Main page with week list and aggregate stats
-  - docs/week/YYYY-MM-DD.html   Detail page for each weekly archive
+  - docs/index.html              Main page with week list and aggregate stats
+  - docs/week/YYYY-MM-DD.html    Detail page for each weekly archive
 """
 
 import json
@@ -42,6 +42,26 @@ CATEGORY_ORDER = [
     "Economics",
     "Ethics",
 ]
+
+CATEGORY_COLORS = {
+    "Entrepreneurship": "entre",
+    "Innovation & Technology Policy": "innov",
+    "Management": "mgmt",
+    "Strategy": "strategy",
+    "Organization": "org",
+    "Management Science": "mgmt",
+    "International Business": "mgmt",
+    "Practitioner": "mgmt",
+    "Marketing": "mktg",
+    "Information Systems": "is",
+    "Operations Management": "ops",
+    "Operations Research": "ops",
+    "OB & HR": "hr",
+    "Accounting": "acct",
+    "Finance": "fin",
+    "Economics": "econ",
+    "Ethics": "ethics",
+}
 
 
 def generate_site():
@@ -83,6 +103,8 @@ def _generate_index(weeks: dict[str, list[dict]]):
     """Generate the main index page with week list."""
     total_papers = sum(len(p) for p in weeks.values())
     total_weeks = len(weeks)
+    total_ft50 = sum(sum(1 for p in papers if p.get("in_ft50")) for papers in weeks.values())
+    total_innov = sum(sum(1 for p in papers if p.get("innovation_relevance") == "high") for papers in weeks.values())
 
     week_rows = []
     for date_str, papers in weeks.items():
@@ -92,10 +114,10 @@ def _generate_index(weeks: dict[str, list[dict]]):
         week_rows.append(f"""
       <li class="week-item">
         <div>
-          <a href="week/{date_str}.html">{date_str}</a>
+          <a href="week/{date_str}.html">Week of {date_str}</a>
         </div>
         <div class="week-meta">
-          {len(papers)} papers &middot; FT50: {ft50} &middot; UTD24: {utd24} &middot; Innovation: {high}
+          {len(papers)} papers · FT50: {ft50} · UTD24: {utd24} · Innovation: {high}
         </div>
       </li>""")
 
@@ -108,30 +130,43 @@ def _generate_index(weeks: dict[str, list[dict]]):
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header>
-    <h1>AI Academia Bot</h1>
-    <p>FT50 &amp; UTD24 Weekly Paper Archive &middot; Management, Innovation &amp; Entrepreneurship</p>
-    <div class="stats">
-      <div class="stat">
-        <div class="stat-value">{total_weeks}</div>
-        <div class="stat-label">Weeks Archived</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value">{total_papers}</div>
-        <div class="stat-label">Total Papers</div>
-      </div>
+  <header class="header">
+    <div class="header-content">
+      <div class="header-icon">📚</div>
+      <h1>AI Academia Bot</h1>
+      <p class="header-subtitle">FT50 & UTD24 Weekly Paper Archive · Management, Innovation & Entrepreneurship</p>
     </div>
   </header>
 
-  <div class="container">
-    <h2>Weekly Archives</h2>
+  <div class="stats-bar">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">{total_weeks}</div>
+        <div class="stat-label">Weeks</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{total_papers}</div>
+        <div class="stat-label">Papers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{total_ft50}</div>
+        <div class="stat-label">FT50</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{total_innov}</div>
+        <div class="stat-label">Innovation</div>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
     <ul class="week-list">
       {"".join(week_rows)}
     </ul>
-  </div>
+  </main>
 
-  <footer>
-    Powered by <a href="https://openalex.org">OpenAlex</a> &middot;
+  <footer class="footer">
+    Powered by <a href="https://openalex.org">OpenAlex</a> ·
     <a href="https://github.com/coujasmine/AI-academia-bot">GitHub</a>
   </footer>
 </body>
@@ -148,17 +183,25 @@ def _generate_week_page(date_str: str, papers: list[dict]):
     ft50_count = sum(1 for p in papers if p.get("in_ft50"))
     utd24_count = sum(1 for p in papers if p.get("in_utd24"))
     high_count = sum(1 for p in papers if p.get("innovation_relevance") == "high")
+    medium_count = sum(1 for p in papers if p.get("innovation_relevance") == "medium")
 
     sections = []
+    paper_idx = 0
     for cat, cat_papers in grouped.items():
+        color_key = CATEGORY_COLORS.get(cat, "mgmt")
         cards = []
         for p in cat_papers:
-            cards.append(_render_paper_card(p))
+            paper_idx += 1
+            cards.append(_render_paper_card(p, paper_idx))
         sections.append(f"""
-    <div class="category-section" data-category="{escape(cat)}">
-      <h2>{escape(cat)} ({len(cat_papers)})</h2>
+    <section class="category-section" data-category="{escape(cat)}">
+      <div class="category-header">
+        <span class="category-dot" style="background: var(--category-{color_key})"></span>
+        <h2>{escape(cat)}</h2>
+        <span class="category-count">{len(cat_papers)} papers</span>
+      </div>
       {"".join(cards)}
-    </div>""")
+    </section>""")
 
     # Build filter buttons from categories present
     filter_btns = ['<button class="filter-btn active" data-filter="all">All</button>']
@@ -176,30 +219,40 @@ def _generate_week_page(date_str: str, papers: list[dict]):
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-  <div class="container">
-    <a href="../index.html" class="nav-back">&larr; Back to Archive</a>
+  <header class="header">
+    <div class="header-content">
+      <div class="header-icon">📄</div>
+      <h1>Weekly Paper Summary</h1>
+      <p class="header-date">{date_str}</p>
+      <p class="header-subtitle">FT50 & UTD24 · Management, Innovation & Entrepreneurship</p>
+    </div>
+  </header>
 
-    <h1>Week of {date_str}</h1>
-    <div class="stats" style="justify-content:flex-start; margin: 1rem 0;">
-      <div class="stat">
-        <div class="stat-value">{len(papers)}</div>
+  <div class="stats-bar">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">{len(papers)}</div>
         <div class="stat-label">Papers</div>
       </div>
-      <div class="stat">
-        <div class="stat-value">{ft50_count}</div>
+      <div class="stat-item">
+        <div class="stat-number">{ft50_count}</div>
         <div class="stat-label">FT50</div>
       </div>
-      <div class="stat">
-        <div class="stat-value">{utd24_count}</div>
+      <div class="stat-item">
+        <div class="stat-number">{utd24_count}</div>
         <div class="stat-label">UTD24</div>
       </div>
-      <div class="stat">
-        <div class="stat-value">{high_count}</div>
+      <div class="stat-item">
+        <div class="stat-number">{high_count}</div>
         <div class="stat-label">Innovation</div>
       </div>
     </div>
+  </div>
 
-    <input type="text" class="search-box" placeholder="Search papers by title, author, or abstract..." id="searchBox">
+  <main class="main">
+    <a href="../index.html" class="nav-back">← Back to Archive</a>
+
+    <input type="text" class="search-box" placeholder="Search papers by title, author, journal, or abstract..." id="searchBox">
 
     <div class="filters">
       {"".join(filter_btns)}
@@ -208,10 +261,10 @@ def _generate_week_page(date_str: str, papers: list[dict]):
     <div id="paperList">
       {"".join(sections)}
     </div>
-  </div>
+  </main>
 
-  <footer>
-    Powered by <a href="https://openalex.org">OpenAlex</a> &middot;
+  <footer class="footer">
+    Powered by <a href="https://openalex.org">OpenAlex</a> ·
     <a href="https://github.com/coujasmine/AI-academia-bot">GitHub</a>
   </footer>
 
@@ -242,30 +295,35 @@ def _generate_week_page(date_str: str, papers: list[dict]):
     (WEEK_DIR / f"{date_str}.html").write_text(html, encoding="utf-8")
 
 
-def _render_paper_card(paper: dict) -> str:
-    """Render a single paper as an HTML card."""
+def _render_paper_card(paper: dict, idx: int = 0) -> str:
+    """Render a single paper as an HTML card with premium design."""
     title = escape(paper.get("title", "Untitled"))
     doi = paper.get("doi", "")
     url = doi or paper.get("url", "")
     authors = paper.get("authors", [])
-    author_str = escape(", ".join(authors[:5]))
-    if len(authors) > 5:
-        author_str += f" ... (+{len(authors) - 5})"
+    author_str = escape(", ".join(authors[:4]))
+    if len(authors) > 4:
+        author_str += f" (+{len(authors) - 4} more)"
 
     journal = escape(paper.get("journal_name", ""))
     abbr = escape(paper.get("journal_abbr", ""))
     pub_date = escape(paper.get("publication_date", ""))
 
+    # Abstract section
     abstract = paper.get("abstract", "")
     if abstract:
         abstract = re.sub(r"<[^>]+>", "", abstract).strip()
-        if len(abstract) > 400:
-            abstract = abstract[:400] + "..."
-        abstract_html = f'<p class="paper-abstract">{escape(abstract)}</p>'
+        if len(abstract) > 500:
+            abstract = abstract[:500] + "..."
+        abstract_html = f'''
+        <div class="paper-abstract">
+          <div class="abstract-label">Abstract</div>
+          <p class="abstract-text">{escape(abstract)}</p>
+        </div>'''
     else:
         abstract_html = ""
 
-    # Tags
+    # Tags section
     tags = []
     if paper.get("in_ft50"):
         tags.append('<span class="tag tag-ft50">FT50</span>')
@@ -273,23 +331,62 @@ def _render_paper_card(paper: dict) -> str:
         tags.append('<span class="tag tag-utd24">UTD24</span>')
     rel = paper.get("innovation_relevance", "")
     if rel == "high":
-        tags.append('<span class="tag tag-innovation">Innovation</span>')
+        tags.append('<span class="tag tag-innovation">Innovation-Core</span>')
     elif rel == "medium":
-        tags.append('<span class="tag tag-medium">Related</span>')
-    tags_html = f'<div class="tags">{"".join(tags)}</div>' if tags else ""
+        tags.append('<span class="tag tag-medium">Innovation-Related</span>')
+    tags_html = f'''
+        <div class="paper-tags">
+          {"".join(tags)}
+        </div>''' if tags else ""
 
-    title_html = f'<a href="{escape(url)}" target="_blank">{title}</a>' if url else title
+    # Topics section
+    topics = paper.get("topics", [])
+    if topics:
+        topic_chips = "".join(f'<span class="topic-chip">{escape(t)}</span>' for t in topics[:5])
+        topics_html = f'''
+        <div class="paper-topics">
+          <span class="topics-label">Topics</span>
+          {topic_chips}
+        </div>'''
+    else:
+        topics_html = ""
+
+    title_html = f'<a href="{escape(url)}" target="_blank" rel="noopener">{title}</a>' if url else title
+
+    # DOI display
+    doi_display = ""
+    if doi and doi.startswith("https://doi.org/"):
+        doi_id = doi.replace("https://doi.org/", "")
+        doi_display = f'<a href="{escape(doi)}" target="_blank" rel="noopener">{escape(doi_id)}</a>'
 
     return f"""
-      <div class="paper-card">
-        <h3>{title_html}</h3>
-        <p class="paper-meta">
-          {journal} ({abbr}) &middot; {pub_date}
-          {" &middot; " + author_str if author_str else ""}
-        </p>
-        {abstract_html}
+      <article class="paper-card">
+        <div class="paper-title-bar">
+          <div class="paper-index">Paper #{idx:02d}</div>
+          <h3 class="paper-title">{title_html}</h3>
+        </div>
+        <div class="paper-meta">
+          <div class="meta-item">
+            <span class="meta-label">Journal</span>
+            <span class="meta-value journal">{journal} ({abbr})</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Published</span>
+            <span class="meta-value">{pub_date}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Authors</span>
+            <span class="meta-value">{author_str if author_str else "—"}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">DOI</span>
+            <span class="meta-value">{doi_display if doi_display else "—"}</span>
+          </div>
+        </div>
         {tags_html}
-      </div>"""
+        {abstract_html}
+        {topics_html}
+      </article>"""
 
 
 def _group_papers(papers: list[dict]) -> dict[str, list[dict]]:
