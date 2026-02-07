@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   fetch-and-archive:
@@ -29,30 +30,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch weekly papers and archive
+      - name: Fetch weekly papers, archive, and build site
         env:
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
           FETCH_DAYS: '7'
           ARCHIVE_RETENTION_DAYS: '60'
           FILTER_MODE: 'all'
-        run: python main.py --archive
-      - name: Commit and push archives
+        run: python main.py --archive --site
+
+      - name: Commit and push changes
         run: |
           git config user.name "AI Academia Bot"
           git config user.email "bot@academia.local"
 
-          git add archives/ README.md
+          # Avoid occasional conflicts if manual trigger overlaps schedule
+          git pull --rebase
+
+          # Stage new/updated archives, site pages, README; track deletions
+          git add archives/ docs/ README.md
           git add -u archives/
 
-          if git diff --staged --quiet; then
-            echo "No new changes to commit"
-          else
-            git commit -m "Weekly paper archive $(date +%Y-%m-%d)"
-            git push
-          fi
-          
-          git add archives/ README.md
-          git add -u archives/
           if git diff --staged --quiet; then
             echo "No new changes to commit"
           else
