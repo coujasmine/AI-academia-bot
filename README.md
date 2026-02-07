@@ -1,4 +1,4 @@
-# AI Academia Bot
+[# AI Academia Bot
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/coujasmine/AI-academia-bot/weekly_fetch.yml?label=Weekly%20Fetch)
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
@@ -209,3 +209,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 | 2026-02-04 | [Report](archives/2026-02-04/report.md) | [JSON](archives/2026-02-04/data.json) |
 
 <!-- ARCHIVE_END -->
+](https://github.com/coujasmine/AI-academia-bot)
