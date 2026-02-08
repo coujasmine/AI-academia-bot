@@ -157,7 +157,7 @@ class ArchiveManager:
 
         # Build the table
         table_lines = [
-            "## History Reports\n",
+            "## \U0001f4cb History Reports\n",
             "| Date | Report | Data |",
             "|---|---|---|",
         ]

@@ -97,14 +97,17 @@ Papers are fetched from [**OpenAlex**](https://openalex.org) (primary, 100K req/
 
 ---
 
+<!-- ARCHIVE_START -->
+
 ## 📋 History Reports
 
-<!-- HISTORY_START -->
 | Date | Report | Data |
 |---|---|---|
+| 2026-02-08 | [Report](archives/2026-02-08/report.md) | [JSON](archives/2026-02-08/data.json) |
 | 2026-02-05 | [Report](archives/2026-02-05/report.md) | [JSON](archives/2026-02-05/data.json) |
 | 2026-02-04 | [Report](archives/2026-02-04/report.md) | [JSON](archives/2026-02-04/data.json) |
-<!-- HISTORY_END -->
+
+<!-- ARCHIVE_END -->
 
 ## License
 
