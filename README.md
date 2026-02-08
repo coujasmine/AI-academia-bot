@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">📚 AI Academia Bot</h1>
+  <h1 align="center">📚 Academia Paper Reading</h1>
   <p align="center">
     <strong>自动追踪 FT50 & UTD24 期刊最新论文，生成每周文献摘要报告</strong><br/>
     <sub>Focused on Management, Innovation & Entrepreneurship</sub>
