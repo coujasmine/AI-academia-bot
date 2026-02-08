@@ -17,7 +17,7 @@ from config.journals import get_journals, INNOVATION_TAGS
 from config.settings import FETCH_DAYS, FILTER_MODE
 from src.archive import ArchiveManager
 from src.fetcher import fetch_all_papers
-from src.report import generate_report, generate_ai_summary
+from src.report import generate_report, generate_ai_summary, format_ai_summary_section
 from src.site_generator import generate_site
 
 logging.basicConfig(
@@ -108,9 +108,7 @@ def main():
     # Append AI summary to report if available
     if ai_summary:
         with open(report_path, "a", encoding="utf-8") as f:
-            f.write("\n---\n\n## AI-Powered Weekly Summary\n\n")
-            f.write(ai_summary)
-            f.write("\n")
+            f.write(format_ai_summary_section(ai_summary))
         logger.info("AI summary appended to report")
 
     # Archive to dated folder if requested
