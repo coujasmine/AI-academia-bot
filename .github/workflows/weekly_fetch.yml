@@ -30,6 +30,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # ✅ 关键修复：在生成文件之前先与远端同步，避免“工作区有改动时 pull --rebase”报错
+      - name: Sync with remote (rebase)
+        run: |
+          git config user.name "AI Academia Bot"
+          git config user.email "bot@academia.local"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+
       - name: Fetch weekly papers, archive, and build site
         env:
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
@@ -43,18 +50,15 @@ jobs:
           git config user.name "AI Academia Bot"
           git config user.email "bot@academia.local"
 
-          # Avoid occasional conflicts if manual trigger overlaps schedule
-          git pull --rebase
-
-          # Stage new/updated archives, site pages, README; track deletions
+          # Stage new/updated archives, site pages, README; track deletions too
           git add archives/ docs/ README.md
-          git add -u archives/
+          git add -u archives/ docs/
 
           if git diff --staged --quiet; then
             echo "No new changes to commit"
           else
             git commit -m "Weekly paper archive $(date +%Y-%m-%d)"
-            git push
+            git push origin HEAD:"${GITHUB_REF_NAME}"
           fi
 
       - name: Upload report as artifact
