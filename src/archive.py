@@ -124,55 +124,62 @@ class ArchiveManager:
 
         if removed:
             logger.info("Cleaned up %d archive(s) older than %d days", removed, ARCHIVE_RETENTION_DAYS)
-
+   
     def _update_readme_index(self):
-        """Update the history reports table in README.md between archive markers."""
+        """Update the history reports table in README.md between HISTORY markers.
+
+        IMPORTANT: The README history table is rebuilt solely from existing archives/* folders.
+        It does NOT read/append prior README content.
+        """
         if not README_PATH.exists():
             logger.warning("README.md not found, skipping index update")
             return
 
         content = README_PATH.read_text(encoding="utf-8")
 
-        # Check for markers
-        pattern = r"(<!-- ARCHIVE_START -->)(.*?)(<!-- ARCHIVE_END -->)"
+        # ✅ Match your README markers (HISTORY_START/END), not ARCHIVE_START/END
+        pattern = r"(<!-- HISTORY_START -->)(.*?)(<!-- HISTORY_END -->)"
         if not re.search(pattern, content, flags=re.DOTALL):
             logger.warning(
-                "Archive markers (<!-- ARCHIVE_START/END -->) not found in README. "
+                "History markers (<!-- HISTORY_START/END -->) not found in README. "
                 "Index not updated."
             )
             return
 
-        # Scan all date directories under archives/
         if not self.root_dir.exists():
             return
 
+        # ✅ Only include dates that have BOTH report.md and data.json (real, complete archives)
         dates = sorted(
             [
                 d.name
                 for d in self.root_dir.iterdir()
-                if d.is_dir() and re.match(r"\d{4}-\d{2}-\d{2}", d.name)
+                if d.is_dir()
+                and re.fullmatch(r"\d{4}-\d{2}-\d{2}", d.name)
+                and (d / "report.md").exists()
+                and (d / "data.json").exists()
             ],
             reverse=True,
         )
 
-        # Build the table
+        # ✅ Build ONLY the table (do NOT include "## History Reports" heading here)
         table_lines = [
-            "## History Reports\n",
             "| Date | Report | Data |",
             "|---|---|---|",
         ]
         for d in dates:
-            report_link = f"[Report](archives/{d}/report.md)"
-            json_link = f"[JSON](archives/{d}/data.json)"
-            table_lines.append(f"| {d} | {report_link} | {json_link} |")
+            table_lines.append(
+                f"| {d} | [Report](archives/{d}/report.md) | [JSON](archives/{d}/data.json) |"
+            )
 
-        new_content = "\n".join(table_lines)
+        new_block = "\n".join(table_lines) + "\n"
+
         updated = re.sub(
             pattern,
-            f"<!-- ARCHIVE_START -->\n\n{new_content}\n\n<!-- ARCHIVE_END -->",
+            f"<!-- HISTORY_START -->\n{new_block}<!-- HISTORY_END -->",
             content,
             flags=re.DOTALL,
         )
 
         README_PATH.write_text(updated, encoding="utf-8")
-        logger.info("README index updated with %d archive entries", len(dates))
+        logger.info("README history updated with %d archive entries", len(dates))
