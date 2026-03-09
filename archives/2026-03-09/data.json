@@ -1,0 +1,1055 @@
+[
+  {
+    "title": "Editorial Board",
+    "authors": [],
+    "abstract": "",
+    "journal_name": "Journal of Business Venturing",
+    "journal_abbr": "JBV",
+    "publication_date": "2026-03-06",
+    "doi": "https://doi.org/10.1016/s0883-9026(26)00025-x",
+    "url": "https://openalex.org/W7134051911",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Diverse Scientific and Economic Studies",
+      "Human auditory perception and evaluation",
+      "Educational Robotics and Engineering"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Disruptive sustainability through digital innovations: Overcoming information asymmetries to benefit small-scale producers",
+    "authors": [
+      "Camille Meyer",
+      "John M. Luiz",
+      "Anton Grutter",
+      "Hamieda Parker"
+    ],
+    "abstract": "",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-03-06",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105459",
+    "url": "https://openalex.org/W7134073936",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Innovation and Socioeconomic Development",
+      "Innovation, Sustainability, Human-Machine Systems",
+      "Open Source Software Innovations"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Dual peer effects and cross-stock predictability",
+    "authors": [
+      "Minwen Li",
+      "Shuyi Ge",
+      "Shaoran Li",
+      "Oliver Linton"
+    ],
+    "abstract": "",
+    "journal_name": "Journal of Financial Economics",
+    "journal_abbr": "JFE",
+    "publication_date": "2026-03-06",
+    "doi": "https://doi.org/10.1016/j.jfineco.2026.104274",
+    "url": "https://openalex.org/W7134121363",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Financial Markets and Investment Strategies",
+      "Game Theory and Applications",
+      "Advanced Bandit Algorithms Research"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Blackwell-Monotone Updating Rules",
+    "authors": [
+      "Mark Whitmeyer"
+    ],
+    "abstract": "",
+    "journal_name": "Journal of Political Economy",
+    "journal_abbr": "JPE",
+    "publication_date": "2026-03-06",
+    "doi": "https://doi.org/10.1086/741272",
+    "url": "https://openalex.org/W7134112856",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Game Theory and Voting Systems",
+      "Rough Sets and Fuzzy Logic",
+      "Data Mining Algorithms and Applications"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Making a Swap:  Network Formation with Increasing Marginal Costs",
+    "authors": [
+      "Evan Sadler"
+    ],
+    "abstract": "",
+    "journal_name": "Journal of Political Economy",
+    "journal_abbr": "JPE",
+    "publication_date": "2026-03-06",
+    "doi": "https://doi.org/10.1086/741274",
+    "url": "https://openalex.org/W7134136666",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Digital Platforms and Economics",
+      "Game Theory and Applications",
+      "Auction Theory and Applications"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Effectiveness of Formal and Informal Controls in Deterring Misreporting: The Role of Whistleblowing Mechanism and Ethical Leadership",
+    "authors": [
+      "Vincent K. Chong",
+      "Muhammad Irdam Ferdiansah",
+      "Isabel Z. Wang",
+      "David Woodliff"
+    ],
+    "abstract": "Abstract Our paper examines the effectiveness of formal control (i.e., whistleblowing mechanism) and informal control (i.e., ethical leadership) on the relationship between delegation of decision rights and displacement of responsibility on managers’ misreporting. We find delegation of decision rights affects managers’ misreporting indirectly through displacement of responsibility. We also find that whistleblowing mechanism and ethical leadership negatively moderate the relationship between delegation of decision rights and managers’ misreporting under low displacement of responsibility situations. This result suggests that whistleblowing mechanism and ethical leadership are effective formal and informal controls, respectively, to deter managers’ misreporting only when displacement of responsibility is low. The theoretical and practical implications of our findings are discussed.",
+    "journal_name": "Journal of Business Ethics",
+    "journal_abbr": "JBE",
+    "publication_date": "2026-03-06",
+    "doi": "https://doi.org/10.1007/s10551-026-06277-w",
+    "url": "https://openalex.org/W7134039321",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Ethics in Business and Education",
+      "Corporate Social Responsibility Reporting",
+      "Experimental Behavioral Economics Studies"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "The Task Space: An Integrative Framework for Team Research",
+    "authors": [
+      "Xinlan Emily Hu",
+      "Mark E. Whiting",
+      "Linnea Gandhi",
+      "Duncan J. Watts",
+      "Abdullah Almaatouq"
+    ],
+    "abstract": "Research on teams spans many contexts, but integrating knowledge from heterogeneous sources is challenging because studies typically examine different tasks that cannot be directly compared. Most investigations involve teams working on just one or a handful of tasks, and researchers lack principled ways to quantify how similar or different these tasks are from one another. We address this challenge by introducing the “Task Space,” a multidimensional space in which tasks—and the distances between them—can be represented formally, and use it to create a “Task Map” of 102 crowd-annotated tasks from the published experimental literature. We then demonstrate the Task Space’s utility by performing an integrative experiment that addresses a fundamental question in team research: when do interacting groups outperform individuals? Our experiment samples 20 diverse tasks from the Task Map at three complexity levels and recruits 1,231 participants to work either individually or in groups of three or six (180 experimental conditions). We find striking heterogeneity in group advantage, with groups performing anywhere from three times worse to 60% better than the best individual working alone, depending on the task context. Critically, the Task Space makes this heterogeneity predictable: it significantly outperforms traditional typologies in predicting group advantage on unseen tasks. Our models also reveal theoretically meaningful interactions between task features; for example, group advantage on creative tasks depends on whether the answers are objectively verifiable. We conclude by arguing that the Task Space enables researchers to integrate findings across different experiments, thereby building cumulative knowledge about team performance. This paper was accepted by Sameer Srivastava, organizations. Funding: The authors thank the Alfred P. Sloan Foundation [Grant #202-13924] and the MIT Wade Fund for their generous support of this research. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.03544 .",
+    "journal_name": "Management Science",
+    "journal_abbr": "MS",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1287/mnsc.2023.03544",
+    "url": "https://openalex.org/W7133752671",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Team Dynamics and Performance",
+      "Mobile Crowdsensing and Crowdsourcing",
+      "Personal Information Management and User Behavior"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "For good and for bad: The distinctive effects of successors’ leadership behavior on collective engagement and organizational performance.",
+    "authors": [
+      "Katherine J. Klein",
+      "Shoshana Schwartz",
+      "J. R. Keller",
+      "David A. Harrison",
+      "Jeffrey R. Vittengl",
+      "N. Andrew Cohen"
+    ],
+    "abstract": "Leadership transitions are a fact of organizational life, yet the impact of successors' leadership behavior on organizational outcomes is little understood. Building on change readiness, uncertainty management, and romance of leadership theory and research, we propose a novel theory describing the distinctive effects of successors' versus incumbents' leadership behavior in driving change in collective engagement and organizational performance. We theorize that when employees perceive a great need for organizational change, successors' vision communication and coaching are more likely than incumbents' to yield improvements in collective engagement and organizational performance. But when employees perceive little need for change, successors' vision communication and coaching are more likely than incumbents' to yield declines. To test our model, we conducted a longitudinal, quasi-experimental study of principal succession in a sample of 113 U.S. elementary schools. As predicted, when employees perceived a great need for change, successors' coaching sparked gains in collective engagement and organizational performance. When employees perceived little need for change, successors' coaching backfired, spurring declines in collective engagement and organizational performance. As predicted, the effects of incumbents' coaching were muted. Finally, contrary to our predictions, neither successors' nor incumbents' vision communication drove change in collective engagement and performance. Our theory and findings illuminate the distinctive risks and benefits of successors' leadership behavior in driving change in collective engagement and organizational performance. For good and for bad, successors' coaching changes their organizations in ways that incumbents' leadership does not. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+    "journal_name": "Journal of Applied Psychology",
+    "journal_abbr": "JAP",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1037/apl0001359",
+    "url": "https://openalex.org/W7133830120",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Human Resource and Talent Management",
+      "Mentoring and Academic Development",
+      "Job Satisfaction and Organizational Behavior"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "When (collective) losses loom larger than voice pains: The effect of loss framing on willingness to speak up at work.",
+    "authors": [
+      "Jeffrey Thomas",
+      "Jonathan E. Booth",
+      "Phillip S. Thompson",
+      "Mark C. Bolino"
+    ],
+    "abstract": "Previous research indicates that employees often believe that it is too risky to voice their concerns about organizational problems; however, prospect theory suggests that people are more willing to take risks when problems are framed in terms of potential losses rather than potential gains. To reconcile these perspectives, we draw on prospect theory and the principle of loss aversion to explain why loss framing (compared to gain framing) will increase employees' willingness to engage in voice behavior. In Study 1, we used a scenario experiment and found that participants who considered potential losses (compared to gains) after writing about a problem at work were more willing to speak up. Further, integrating prospect theory with research on other orientation, we extended these findings in Study 2 by hypothesizing an interaction between loss (compared to gain) framing and collective (compared to self) framing. Using experimental vignette methodology, we found the most voice behavior with framing that highlights potential for collective losses. In Study 3, we conducted a multiwave, multisource survey study using three organizational samples from different industries-health care, consulting, and auditing-and again found that employees were more willing to engage in voice when framing made collective losses salient. Altogether, our three studies integrate prospect theory and research on other orientation to show that framing, particularly in terms of losses and collective outcomes, is an important tool for eliciting employee voice. Theoretical and practical implications of our work, as well as ideas for future research, are also discussed. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+    "journal_name": "Journal of Applied Psychology",
+    "journal_abbr": "JAP",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1037/apl0001372",
+    "url": "https://openalex.org/W7128779344",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Decision-Making and Behavioral Economics",
+      "Job Satisfaction and Organizational Behavior",
+      "Behavioral Health and Interventions"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Price Impact in Closing Auctions, Opening Auctions, and Continuous Markets: A Benchmark for Cost of Trading on Anomalies",
+    "authors": [
+      "Amit Goyal",
+      "Narasimhan Jegadeesh",
+      "Yanbin Wu"
+    ],
+    "abstract": "Abstract Closing auctions account for about 10% of daily trading volume and offer a potentially attractive alternative to trading in the continuous market. We find that the price impact is lower in closing auctions than in the continuous market for all stocks except Nasdaq microcaps. Opening auctions are illiquid. We compute trading costs for anomalies based strategies by strategically placing orders in the lower cost mechanism. The annualized trading costs for long/short portfolios based on financial ratios such as profitability and investment range from 17 to 41 basis points (bps). Excluding microcaps, these costs fall to 9–21 bps in closing auctions.",
+    "journal_name": "Journal of Financial and Quantitative Analysis",
+    "journal_abbr": "JFQA",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1017/s0022109026102592",
+    "url": "https://openalex.org/W7133971019",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Auction Theory and Applications",
+      "Financial Markets and Investment Strategies",
+      "Sports Analytics and Performance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Swimming Against the Current: Contrarian Retail Trading",
+    "authors": [
+      "Brad Cannon",
+      "Hannes Mohrschladt"
+    ],
+    "abstract": "",
+    "journal_name": "Journal of Financial and Quantitative Analysis",
+    "journal_abbr": "JFQA",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1017/s0022109026102737",
+    "url": "https://openalex.org/W7133634636",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Securities Regulation and Market Practices",
+      "Global trade, sustainability, and social impact",
+      "Digital Economy and Work Transformation"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Reference Aware Delexicalization (RAD) Framework: Theory Driven Artificial Intelligence Modeling for Domain Generalization",
+    "authors": [
+      "Sandeep Suntwal",
+      "Susan A. Brown"
+    ],
+    "abstract": "Artificial intelligence systems often underperform in new contexts, limiting their reliability in business domains. This study introduces the reference aware delexicalization (RAD) framework, a theory-driven approach that improves artificial intelligence (AI) model performance across different domains without requiring massive computational resources. RAD addresses a fundamental problem: AI models often memorize surface patterns from training data rather than learning transferable reasoning skills. By systematically abstracting domain-specific terms while preserving semantic relationships, RAD enables models to focus on underlying logical structures that generalize across contexts. For practitioners, RAD offers measurable benefits. Healthcare organizations can deploy clinical decision support systems that maintain accuracy when processing records from different departments or institutions. Financial institutions can build fraud detection systems that adapt to emerging threats without extensive retraining. Social media platforms can improve content moderation consistency across languages and cultural contexts. For policymakers, RAD demonstrates that effective AI does not require ever-larger models with corresponding environmental and economic costs. Organizations can achieve robust, adaptable AI systems through principled data augmentation techniques. This finding supports policies encouraging efficient, interpretable AI development over resource-intensive scaling approaches, promoting both technological sustainability and broader access to reliable AI capabilities.",
+    "journal_name": "Information Systems Research",
+    "journal_abbr": "ISR",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1287/isre.2023.0457",
+    "url": "https://openalex.org/W7133746302",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Artificial Intelligence in Healthcare and Education",
+      "Computational and Text Analysis Methods",
+      "Misinformation and Its Impacts"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Matrix Completion with Graph Information: A Provable Nonconvex Optimization Approach",
+    "authors": [
+      "Yao Wang",
+      "Yiyang Yang",
+      "Kaidong Wang",
+      "Shanxing Gao",
+      "Xiuwu Liao"
+    ],
+    "abstract": "We consider the problem of matrix completion with graphs as side information depicting the interrelations between variables. The key challenge lies in leveraging the graph’s similarity structure to enhance matrix recovery. Existing approaches, primarily based on graph Laplacian regularization, suffer from several limitations: (1) they focus only on the similarity between neighboring variables while overlooking long-range correlations, (2) they are highly sensitive to false edges in the graphs, and (3) they lack theoretical guarantees regarding statistical and computational complexities. To address these issues, we propose, in this paper, a novel graph-regularized matrix completion algorithm called GSGD, based on a preconditioned projected gradient descent approach. We demonstrate that GSGD effectively captures the higher-order correlation information behind the graphs and achieves superior robustness and stability against the false edges. Theoretically, we prove that GSGD achieves linear convergence to the global optimum with near-optimal sample complexity, providing the first theoretical guarantees for both recovery accuracy and efficacy in the perspective of nonconvex optimization. Experiments on both synthetic and real-world data validate that GSGD achieves superior accuracy and scalability compared with several popular alternatives. History: Accepted by Antonio Frangioni, Area Editor for Design &amp; Analysis of Algorithms—Continuous. Funding: Y. Wang is grateful for the support of the National Natural Science Foundation of China [Grant 12371513]. K. Wang acknowledges support from the State Key Laboratory of Robotics [Grant 2023-O28]. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2025.1169 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2025.1169 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1287/ijoc.2025.1169",
+    "url": "https://openalex.org/W7133642899",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Sparse and Compressive Sensing Techniques",
+      "Stochastic Gradient Optimization Techniques",
+      "Tensor decomposition and applications"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Continuity, Uniqueness, and Long-Term Behavior of Nash Flows over Time",
+    "authors": [
+      "Neil Olver",
+      "Leon Sering",
+      "Laura Vargas Koch"
+    ],
+    "abstract": "Properties of Nash Flows over Time In the paper “Continuity, Uniqueness, and Long-Term Behavior of Nash Flows over Time” by Neil Olver, Leon Sering, and Laura Vargas Koch, a dynamic model of traffic based on the Vickrey bottleneck model is studied. In this model, a continuous flow of users travels over time through a network from an origin to a destination, aiming to minimize their travel time. Equilibrium flows in this model, in which no user has a better route available to the user considering delays because of the other users, have recently received significant attention. The paper answers several basic questions that have remained open in the single-commodity setting. It shows that equilibrium travel times are unique. Moreover, it proves that equilibria are continuous, meaning that small changes in the network parameters or starting conditions do not lead to drastically different outcomes. Surprisingly, the understanding of the long-term behavior of equilibria turns out to be crucial.",
+    "journal_name": "Operations Research",
+    "journal_abbr": "OR",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1287/opre.2024.1007",
+    "url": "https://openalex.org/W4226428947",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Transportation Planning and Optimization",
+      "Traffic control and management",
+      "Stochastic processes and statistical mechanics"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Dynamic Pricing Under Self-Exciting Arrival Processes",
+    "authors": [
+      "Quan Yuan",
+      "Longyuan Du",
+      "M Hu"
+    ],
+    "abstract": "Pricing with a Ripple Effect How should firms price when each sale sparks the next? In their paper, “Dynamic Pricing Under Self-Exciting Arrival Processes,” Quan Yuan, Longyuan Du, and Ming Hu study pricing decisions in markets where customer purchases actively stimulate future demand through word-of-mouth and social influence. Using a self-exciting (Hawkes) process to model the demand process, the authors show that optimal prices depend on both time and an “excitement level” summarizing accumulated customer influence. A key insight is that optimal prices may rise or fall with demand momentum, depending on whether the market is in a growth or saturation phase. The paper further demonstrates that simple, easy-to-implement deterministic (nonstationary) pricing heuristics can perform nearly as well as fully dynamic policies at large demand volumes. These results provide actionable guidance for firms operating in social media–driven markets, where this hour’s customers shape the next hour’s demand, and highlight the importance of explicitly accounting for the ripple effect of purchases in pricing design.",
+    "journal_name": "Operations Research",
+    "journal_abbr": "OR",
+    "publication_date": "2026-03-05",
+    "doi": "https://doi.org/10.1287/opre.2024.1172",
+    "url": "https://openalex.org/W7133824917",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Consumer Market Behavior and Pricing",
+      "Game Theory and Applications",
+      "Supply Chain and Inventory Management"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Towards disruptive sustainability: A multi-level analysis of business models driving sustainability transitions",
+    "authors": [
+      "Peter Lindgren"
+    ],
+    "abstract": "This study examines how disruptive sustainable business models (DSBMs) drive sustainability transitions across micro, meso , and macro levels of socio-technical systems. Analyzing 29 case companies, the research identifies five key drivers of DSBM development and scaling: technological experimentation, entrepreneurial initiative, user-driven innovation, industry collaboration, and regulatory support. These drivers interact with seven critical factors: industry dynamics, organizational structure, geographical context, innovation ecosystems, regulatory environment, policy coherence, and market readiness that shape how DSBMs evolve from niche innovations to regime-level change. Drawing on and extending the Multi-Level Perspective (MLP) framework, the study demonstrates how firms actively couple business model innovation with institutional change across levels. The findings highlight that DSBMs achieve large-scale impact by leveraging policy mixes that destabilize unsustainable practices while supporting innovation scaling. The role of adaptive governance frameworks and cross-sectoral policy coherence is crucial for aligning DSBMs with global sustainability goals, such as the Paris Agreement. Moreover, the study offers a novel contribution by conceptualizing DSBMs as recursive and cross-scalar instruments of transition agency. This research contributes to the literature on sustainability transitions by integrating business model innovation more explicitly into MLP theory and providing evidence of how firm-level agency interacts with structural change. • Disruptive sustainable business models operate across niche, regime, and landscape levels. • Business model innovation drives sustainability transitions beyond technological change. • Policy fragmentation constrains the scaling of disruptive sustainable business models. • Adaptive governance enables firms to challenge and reconfigure unsustainable regimes. • Evidence from 29 firms reveals sector-specific transition pathways.",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-03-04",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105457",
+    "url": "https://openalex.org/W7133510297",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Ecosystem dynamics and resilience",
+      "Green IT and Sustainability",
+      "Sustainable Supply Chain Management"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Entrepreneurs-as-Scientists and entrepreneurial team formation strategies: A randomized control trial experiment",
+    "authors": [
+      "Daniele Battaglia",
+      "Alessandra Colombelli",
+      "Andrea Panelli",
+      "Emilio Paolucci",
+      "Elisabetta Raguseo"
+    ],
+    "abstract": "This paper investigates whether a causal, theory-driven decision framework, such as the Entrepreneurs-as-Scientists ( E -a-S) framework, influences how entrepreneurs reconfigure their entrepreneurial teams. We conducted a randomized controlled trial on 132 early-stage startups that participated in a pre-incubation program. During the pre-incubation program, we randomly assigned the early-stage startups to either a treatment group, which learned how to apply the E -a-S framework to make decisions, or a control group, which learned the same tools and skills as the treatment group, but without the E -a-S framework. For startups in both groups, we tracked the composition of the initial entrepreneurial team and its subsequent reconfigurations over 64 weeks. Employing a question-driven approach, we investigated whether E -a-S entrepreneurial teams evolved differently from those in the control group. Our analysis reveals that the entrepreneurs who learned the E -a-S framework composed their entrepreneurial teams differently from the other entrepreneurs: entrepreneurs who learned an E-a-S framework were more likely to use a resource-seeking strategy to compose their teams than those in the control group. Specifically, E -a-S entrepreneurs decreased the proportion of team members with technical backgrounds, while selectively adding individuals with managerial and industry-specific experience. These findings demonstrate that E-a-S not only shapes venture pivots and terminations but also influences the formation of entrepreneurial teams. The implications of the results are discussed for research, entrepreneurs, and investors. • E -a-S entrepreneurs reconfigure their entrepreneurial teams differently compared to other entrepreneurs. • E-a-S entrepreneurs rely more on a resource-seeking strategy than non-E-a-S entrepreneurs when reconfiguring their teams. • E-a-S entrepreneurs do not differ from non-E-a-S in using an interpersonal attraction strategy when reconfiguring teams. • Randomized control trial experiment: Analysis based on 132 early-stage startups.",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-03-04",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105461",
+    "url": "https://openalex.org/W7133482436",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Entrepreneurship Studies and Influences",
+      "Interdisciplinary Research and Collaboration",
+      "Creativity in Education and Neuroscience"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Automated routing, patent examiner specialization, and quasi-random assignment at the USPTO",
+    "authors": [
+      "Nicholas A. Pairolero",
+      "C. Grazia"
+    ],
+    "abstract": "",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-03-04",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105460",
+    "url": "https://openalex.org/W7133527639",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Intellectual Property and Patents",
+      "Pharmaceutical Economics and Policy",
+      "Economic and Technological Innovation"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Do political systems affect economic outcomes? The geography of inward FDI and its relationships with growth and inequality",
+    "authors": [
+      "Dario Maimone Ansaldo Patti",
+      "Ram Mudambi",
+      "Pietro Navarra"
+    ],
+    "abstract": "Abstract This paper explores the complex interplay between political systems, foreign direct investment (FDI), and income inequality. Building on Acemoglu and Robinson’s Nobel Prize-winning work on institutions, we develop a framework to analyze governments’ political incentives to attract FDI. We argue that highly entrenched autocracies, facing little internal competition for rents, and democracies with strong political competition, eager to secure growth for electoral advantage, exhibit strong incentives to attract FDI. In contrast, weaker autocracies with internal competition for rents and entrenched democracies, where rulers face less pressure to deliver growth, have lower incentives to do so. Rising inequality introduces an additional layer of complexity: while democracies may encounter public resistance to FDI when its benefits are perceived as unevenly distributed, autocracies remain less constrained by public opinion. We analyze data from 144 countries spanning 1990–2018, assessing how political incentives shape FDI inflows and their subsequent impact on economic growth. Our findings suggest that in democracies, robust political competition underpins a country’s incentive to remain attractive to investors, while autocracies require regulatory stability and credible long-term commitments to achieve this outcome. Ultimately, our research underscores a paradox—democratic freedoms, though vital, may at times hinder economic competitiveness relative to autocratic regimes.",
+    "journal_name": "Journal of International Business Studies",
+    "journal_abbr": "JIBS",
+    "publication_date": "2026-03-04",
+    "doi": "https://doi.org/10.1057/s41267-026-00849-8",
+    "url": "https://openalex.org/W7133358460",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "International Business and FDI",
+      "Elite Sociology and Global Capitalism",
+      "International Development and Aid"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Are You, You? Seamlessly Fighting Identity Fraud with Keystroke Dynamics",
+    "authors": [
+      "David Kim",
+      "Joseph S. Valacich",
+      "Jeffrey L. Jenkins",
+      "David W. Wilson",
+      "M. N. V. Ravi Kumar",
+      "Paul Weisgarber"
+    ],
+    "abstract": "PRACTICE-ORIENTED ABSTRACT In September of 2017, Equifax disclosed a data breach that exposed the personal information of 147 million people, including names, Social Security numbers, and addresses. Such high-profile data breaches have rendered traditional forms of identity verification—especially knowledge-based authentication (KBA)—worse than useless: fraudsters have a 92% success rate in KBA screenings, compared to just 46% for genuine customers. In the face of these challenges, digital platforms are turning to sparse alternative data sources and overt verification technologies, often to the detriment of the user experience. The objective of this research is to design and build a novel approach to identity verification for new platform users using digital behavior data—features that describe how users type and interact during account setup. The system (1) evaluates identity fraud risk for all first-time users, and (2) minimizes the impact on the new user experience by seamlessly analyzing behavior during a platform’s existing onboarding experience. We evaluated and improved the design in four experiments, culminating in an identity fraud detection tool that effectively detects identity fraud for first-time users and supports seamless user experiences.",
+    "journal_name": "Information Systems Research",
+    "journal_abbr": "ISR",
+    "publication_date": "2026-03-04",
+    "doi": "https://doi.org/10.1287/isre.2023.0088",
+    "url": "https://openalex.org/W7133518870",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "User Authentication and Security Systems",
+      "Privacy, Security, and Data Protection",
+      "Spam and Phishing Detection"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Stochastic Gradient Descent with Adaptive Data",
+    "authors": [
+      "Ethan Che",
+      "Dong Jg",
+      "Xin T. Tong"
+    ],
+    "abstract": "Stochastic Gradient Descent with Adaptive Data Stochastic gradient descent (SGD) is a central tool in modern optimization, but its classical theory relies on the assumption that data are independent of the decisions being optimized. In many operations research settings, this assumption fails: policies influence system dynamics, and the resulting data feed back into subsequent updates. In “Stochastic Gradient Descent with Adaptive Data,” Che, Dong, and Tong address this challenge by developing a general framework for analyzing SGD when data are generated adaptively by policy-dependent Markov processes. Their analysis shows that fully adaptive SGD can still attain convergence rates comparable to the classical i.i.d. setting, provided the underlying system satisfies mild ergodicity and continuity conditions. The theory is illustrated through canonical applications in operations research and reinforcement learning. Overall, the paper provides rigorous and reassuring theoretical foundations for deploying learning algorithms in dynamic environments where decisions and data are fundamentally intertwined.",
+    "journal_name": "Operations Research",
+    "journal_abbr": "OR",
+    "publication_date": "2026-03-04",
+    "doi": "https://doi.org/10.1287/opre.2024.1014",
+    "url": "https://openalex.org/W7133517335",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Stochastic Gradient Optimization Techniques",
+      "Reinforcement Learning in Robotics",
+      "Simulation Techniques and Applications"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Beyond Discounted Returns: Robust Markov Decision Processes with Average and Blackwell Optimality",
+    "authors": [
+      "Marek Petrik",
+      "Marek Petrik",
+      "Nicolas Vieille"
+    ],
+    "abstract": "Novel Insights on Robust Markov decision Processes with Average Reward and Blackwell Optimality Criteria Robust Markov decision processes (RMDPs) have been studied extensively when the objective is the discounted return, but little is known for average optimality and Blackwell optimality. We show that average optimal policies can be chosen stationary and deterministic for sa-rectangular RMDPs, but perhaps surprisingly, we show that for s-rectangular RMDPs average optimal policies may not exist, and if they do exist, they may not be stationary. We also study Blackwell optimality for sa-rectangular RMDPs, where we show that approximately Blackwell optimal policies always exist, although exact Blackwell optimal policies may not exist. We provide a general sufficient condition for their existence. We then discuss the connection between average and Blackwell optimality, and we describe several algorithms to compute the optimal average return. Interestingly, our approach leverages the connections between RMDPs and stochastic games. Overall, our paper emphasizes the superior practical properties of distance-based sa-rectangular models over s-rectangular models for average and Blackwell optimality.",
+    "journal_name": "Operations Research",
+    "journal_abbr": "OR",
+    "publication_date": "2026-03-04",
+    "doi": "https://doi.org/10.1287/opre.2023.0694",
+    "url": "https://openalex.org/W7133550630",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Reinforcement Learning in Robotics",
+      "Advanced Bandit Algorithms Research",
+      "Game Theory and Applications"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Bridging Different Institutional Logics: The Role of Institutional Work in Translating Sustainable Product-Service Systems Across Contexts",
+    "authors": [
+      "Rifgi Buğra Bağcı",
+      "Jawwad Z. Raja",
+      "İsmail Gölgeci̇"
+    ],
+    "abstract": "Abstract Product-service systems (PSS) are increasingly adopted by firms seeking to pursue environmental and social responsibilities alongside commercial goals, often with near-term trade-offs. Yet, their implementation across diverse national contexts is often fraught with tensions between competing institutional logics, constraining the scalability and robustness of PSS strategies. While institutional theory highlights how logics guide organizational behavior, less is understood about how firms transfer global sustainability logics across organizational and national boundaries and translate them into locally viable practices in differing institutional environments. This study addresses this gap through a comparative qualitative case study of a global heating system provider, drawing on 43 in-depth interviews and complementary field data from its headquarters in Japan and its subsidiary and customers in Türkiye. We identify three institutional logics—sustainability, state, and commercial—that jointly influence PSS adoption but interact differently across contexts. Our findings reveal three mechanisms of institutional work that underpin the transfer and translation of logics: strategic creation of sustainability practices, tight and loose coupling of logics under varying institutional conditions, and negotiation of disruption trade-offs between environmental and profitability priorities. We develop a conceptual model that specifies the mechanisms through which sustainability logics are transferred across organizational and national boundaries and translated into locally enacted practices, leading to either tight, incremental, or symbolic integration of PSS strategies. Theoretically, this research advances institutional theory by demonstrating that institutional logics are not fixed determinants of behavior but resources that actors actively interpret, recombine, and sometimes only nominally adopt when transferring them across contexts. Practically, it provides guidance for managers and policymakers on designing harmonization strategies, aligning incentives, and overcoming infrastructural barriers to enable substantive sustainability transitions.",
+    "journal_name": "Journal of Business Ethics",
+    "journal_abbr": "JBE",
+    "publication_date": "2026-03-04",
+    "doi": "https://doi.org/10.1007/s10551-026-06281-0",
+    "url": "https://openalex.org/W7133486689",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Service and Product Innovation",
+      "Sustainable Supply Chain Management",
+      "Innovative Human-Technology Interaction"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Building entrepreneurial infrastructure: Discursive strategies and the development of China's venture financing system",
+    "authors": [
+      "Jiguo Qi",
+      "Wei Zhang",
+      "P White"
+    ],
+    "abstract": "",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105452",
+    "url": "https://openalex.org/W7133354162",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Biotechnology and Related Fields",
+      "Hydropower, Displacement, Environmental Impact",
+      "Public-Private Partnership Projects"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Pluriversal technologies: A decolonial typology of knowledge integration for disruptive sustainability",
+    "authors": [
+      "Thomas Bauwens",
+      "Martin Calisto Friant",
+      "Koen Beumer",
+      "Paola Velasco‐Herrejón"
+    ],
+    "abstract": "Amid accelerating socio-ecological crises—climate breakdown, mass extinctions and widening inequalities—there is an urgent need for transformative approaches that address root causes rather than symptoms. Disruptive sustainability seeks such transformations; however, it remains theoretically underdeveloped regarding how radically different knowledge systems can work together across the life-cycle of technologies. Drawing on science and technology studies and decolonial scholarship, we build a decolonial typology of knowledge integration in ‘pluriversal technologies’—technologies co-designed, co-produced and co-owned across epistemic communities. We identify four modes: extractive appropriation, parallel operation, adaptive integration and transformative integration. We demonstrate how each appears along the design, production and ownership dimensions of a technology's life-cycle. This study makes three contributions. First, by demonstrating that a single technology can occupy different integration modes across its life-cycle, it exposes the dimensional unevenness that often derails ostensibly collaborative initiatives. Second, it moves beyond binary treatments of integration to a graded, four-mode framework. Third, it identifies catalytic mechanisms—such as trust building, co-learning, shared governance, recognition and reparation—that enable initiatives to shift between modes. This typology enriches research on disruptive sustainability by clarifying how diverse knowledge systems can collaborate or clash and by mapping routes toward more just, sustainable and effective innovation. • Decolonial typology of knowledge integration in pluriversal technologies • Four modes: extractive, parallel, adaptive and transformative • Integration varies across design, production and ownership phases • Identifies mechanisms enabling shifts between integration modes • Moves sustainability transitions beyond participatory/not-participatory framings",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105458",
+    "url": "https://openalex.org/W7133316950",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Information Systems Theories and Implementation",
+      "ICT in Developing Communities",
+      "Innovation and Socioeconomic Development"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Credit Rating Purchases and S&amp;P 500 Index Membership Decisions",
+    "authors": [
+      "Kun Li",
+      "Xin Liu",
+      "Shang-Jin Wei"
+    ],
+    "abstract": "S&amp;P 500 is commonly used in empirical finance and macroeconomics as a measure of overall capital market sentiment, and the associated VIX is taken as an indicator of economic uncertainty. While both assume that the S&amp;P 500 index is objectively constructed, we show that its membership decisions have a nontrivial amount of discretion unexplained by its published methodology. Importantly, we show that firms’ purchases of S&amp;P ratings appear to improve their chance of entering the index (but purchases of Moody’s ratings do not). Furthermore, openings in index membership tend to motivate firms to purchase more S&amp;P ratings. This is also confirmed by an event study of a 2002 membership rule change. These patterns raise concerns over potential governance issues. This paper was accepted by Will Cong, finance. Supplemental Material: The internet appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08157 .",
+    "journal_name": "Management Science",
+    "journal_abbr": "MS",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1287/mnsc.2024.08157",
+    "url": "https://openalex.org/W7133349399",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Credit Risk and Financial Regulations",
+      "Italy: Economic History and Contemporary Issues",
+      "Banking stability, regulation, efficiency"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Choosing Outcomes-Based Reimbursement Policies: Should We Worry About Collusion?",
+    "authors": [
+      "Saša Zorc",
+      "Stephen E. Chick",
+      "Sameer Hasija"
+    ],
+    "abstract": "Outcomes-based reimbursement rewards health providers with better health outcomes with higher payments. Such reimbursement policies require several design choices, including the type of contract (e.g., capitation or fee-for-service), measure (e.g., population- or provider-level outcomes), and whether to contract with individual providers or larger groups. We explore which outcomes-based reimbursement policies may be vulnerable to potentially illegal collusion, and whether collusion issues can be averted through incentive design. We present a game-theoretic model a chronic care pathway in a two-tier healthcare system. We identify differences in the impact of collusion on health, costs, and system efficiency under different reimbursement policies. Theoretical and numerical results (calibrated to data from two pathways for diabetes) show that whether an outcomes-adjusted reimbursement system is vulnerable to collusion depends critically on one trait: whether the income of physicians who receive referrals scales with volume. In systems where it does, as with fee-for-service models in the United States, there exist financial incentives to collude, underlining the importance of addressing collusion through laws. Systems that lack this trait (e.g., the UK NHS) are more resistant to collusion. Exploring theoretically optimal contracts, we find evidence of strong performance of outcomes-adjusted capitation contracts with individual providers using population-level data. This paper was accepted by Terry Taylor, operations management. Funding: S. E. Chick acknowledges research support through the Novartis Chair for Healthcare Management. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2021.02283 .",
+    "journal_name": "Management Science",
+    "journal_abbr": "MS",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1287/mnsc.2021.02283",
+    "url": "https://openalex.org/W7133354457",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Healthcare Policy and Management",
+      "Auction Theory and Applications",
+      "Healthcare Operations and Scheduling Optimization"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "The Design of Centralized Matching Systems on Two-Sided Platforms: Evidence from the Ride-Hailing Market",
+    "authors": [
+      "Xueli Zhang",
+      "Wei Miao",
+      "Junhong Chu",
+      "Ivan Png"
+    ],
+    "abstract": "This paper develops a dynamic structural model to investigate the tradeoff between matching efficiency and agent autonomy in the ride-hailing market.",
+    "journal_name": "Marketing Science",
+    "journal_abbr": "MktSci",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1287/mksc.2023.0561",
+    "url": "https://openalex.org/W7133354822",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Transportation and Mobility Innovations",
+      "Digital Platforms and Economics",
+      "Consumer Market Behavior and Pricing"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "CEO tax effects on corporate misconduct: evidence from CEOs’ capital gains taxes",
+    "authors": [
+      "Rui Ge",
+      "Junqiang Ke",
+      "Zhiming Ma",
+      "Lufei Ruan"
+    ],
+    "abstract": "",
+    "journal_name": "Review of Accounting Studies",
+    "journal_abbr": "RAST",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1007/s11142-026-09945-4",
+    "url": "https://openalex.org/W7133357415",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Corporate Taxation and Avoidance",
+      "Auditing, Earnings Management, Governance",
+      "Corporate Finance and Governance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Revolving door at financial intermediaries: evidence from fraud allegations against IPO clients",
+    "authors": [
+      "Yangyang Chen",
+      "Shuping Lin",
+      "Judy Ng",
+      "Yue Pan"
+    ],
+    "abstract": "",
+    "journal_name": "Review of Accounting Studies",
+    "journal_abbr": "RAST",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1007/s11142-026-09935-6",
+    "url": "https://openalex.org/W7133349408",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Auditing, Earnings Management, Governance",
+      "Corporate Finance and Governance",
+      "Customer Service Quality and Loyalty"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Editorial Board",
+    "authors": [],
+    "abstract": "",
+    "journal_name": "Journal of Financial Economics",
+    "journal_abbr": "JFE",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1016/s0304-405x(26)00041-3",
+    "url": "https://openalex.org/W7133361262",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Diverse Scientific and Economic Studies",
+      "Human auditory perception and evaluation",
+      "Educational Robotics and Engineering"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Code and Data Repository for Enabling Ultra-Fast Online Order Fulfillment: Efficient Inventory Management for In-Store Micro-Fulfillment Centers",
+    "authors": [
+      "Qian Jia"
+    ],
+    "abstract": "The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper Enabling Ultra-Fast Online Order Fulfillment: Efficient Inventory Management for In-Store Micro-Fulfillment Centers by Qian Jia, Zhengrui Jiang, and Syam Menon.",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1287/ijoc.2024.0710.cd",
+    "url": "https://openalex.org/W7133295230",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Supply Chain and Inventory Management",
+      "Reliability and Maintenance Optimization",
+      "Forecasting Techniques and Applications"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Code and Data Repository for Cone product reformulation for global optimization",
+    "authors": [
+      "Dimitris Bertsimas",
+      "Danique de Moor",
+      "D. deHertog"
+    ],
+    "abstract": "The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper Cone product reformulation for global optimization by D. Bertsimas, D. de Moor, D. den Hertog, T. Koukouvinos, and J. Zhen.",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1287/ijoc.2023.0345.cd",
+    "url": "https://openalex.org/W7133316150",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Advanced Optimization Algorithms Research",
+      "Metaheuristic Optimization Algorithms Research",
+      "Advanced Multi-Objective Optimization Algorithms"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Code and Data Repository for When Multimodal Interactions Impair Prediction: A Novel Regularized Deep Learning Strategy",
+    "authors": [
+      "Gang I. Chen",
+      "Shuaiyong Xiao"
+    ],
+    "abstract": "The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper When Multimodal Interactions Impair Prediction: A Novel Regularized Deep Learning Strategy by Gang Chen, Shuaiyong Xiao, Chenghong Zhang, and Huimin Zhao.",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1287/ijoc.2024.0794.cd",
+    "url": "https://openalex.org/W7133328076",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Topic Modeling",
+      "Emotion and Mood Recognition",
+      "Text and Document Classification Technologies"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Code and Data Repository for Multistage Mobile Anchor Redeployment in Indoor Positioning System Using Hierarchical State Lagrangian Cut-Augmented Stochastic Dual Dynamic integer Programming",
+    "authors": [
+      "Lyu Zhongyuan"
+    ],
+    "abstract": "The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper Multistage Mobile Anchor Redeployment in Indoor Positioning System Using Hierarchical State Lagrangian Cut-Augmented Stochastic Dual Dynamic Integer Programming by Lyu Zhongyuan, Tom Chan, and Daniel P.K. Lun.",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1287/ijoc.2024.0969.cd",
+    "url": "https://openalex.org/W7133300376",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Indoor and Outdoor Localization Technologies",
+      "Optimization and Search Problems",
+      "Facility Location and Emergency Management"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Code and Data Repository for Efficient input uncertainty quantification for ratio estimator",
+    "authors": [
+      "Linyun He"
+    ],
+    "abstract": "The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper Efficient input uncertainty quantification for ratio estimator by L. He, M.B. Feng and E. Song. The snapshot is based on this SHA in the development repository.",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-03-03",
+    "doi": "https://doi.org/10.1287/ijoc.2024.0914.cd",
+    "url": "https://openalex.org/W7133335814",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Distributed Sensor Networks and Detection Algorithms",
+      "Numerical Methods and Algorithms",
+      "GNSS positioning and interference"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Measuring Entrepreneurial Activities in the U.S.: Introducing the Entrepreneurship in the Population Survey",
+    "authors": [
+      "Quentin Brummet",
+      "Diana Hechavarria",
+      "Katie Johnson",
+      "Anthony Washburn"
+    ],
+    "abstract": "This paper introduces the Entrepreneurship in the Population (EPOP) survey, a nationally representative data source for understanding entrepreneurial activities across the United States since 2022. The EPOP survey is distinguished by its focus on a broad set of entrepreneurial activities and collects a wealth of information on the behaviors, challenges, and resources available to entrepreneurs. This data brief provides information on the design and measurement approach of the survey, discusses how to work with EPOP data, and outlines future plans for the survey, including a longitudinal data collection to support research on trajectories of current and prospective entrepreneurs.",
+    "journal_name": "Entrepreneurship Theory and Practice",
+    "journal_abbr": "ETP",
+    "publication_date": "2026-03-02",
+    "doi": "https://doi.org/10.1177/10422587261421201",
+    "url": "https://openalex.org/W7133185760",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Entrepreneurship Studies and Influences",
+      "Migration, Ethnicity, and Economy",
+      "Innovation Policy and R&D"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Asymmetric and Contingent Value of Crowd Wisdom in Crowdfunding",
+    "authors": [
+      "Hai Che",
+      "Yi-Chun Chad Ho",
+      "Subhasish Dasgupta",
+      "Hailiang Huang",
+      "Zhijie Lin"
+    ],
+    "abstract": "Digital crowdfunding platforms operate under substantial uncertainty, where participants must assess platform viability with limited and imperfect information. Using data from the Chinese lending-based crowdfunding market, this study shows that platform growth depends not only on formal risk disclosures (e.g., interest rates, repayment ratios, and capitalization), but also on how users interpret the behavior of others as an informational signal. Specifically, we find that active user participation—particularly on the investor side—serves as a powerful form of “crowd wisdom” that shapes subsequent borrower participation, while borrower growth does not symmetrically attract investors. Importantly, the value of crowd-based signals is contingent: when formal risk indicators suggest greater uncertainty or weaker platform viability, users rely more heavily on observed participation by others; when risk signals are strong and favorable, the incremental influence of crowd cues diminishes. These findings offer several practical insights. Platform operators should recognize investor participation as a credibility signal and prioritize investor acquisition and retention, especially during periods of heightened uncertainty. Platform interface design and disclosure policies should balance formal risk information with transparent participation metrics, rather than treating them as substitutes. From a policy perspective, our results suggest that participation metrics can meaningfully shape user behavior even in the absence of misrepresentation, highlighting the need for regulators to consider how visibility rules, reporting standards, and disclosure requirements interact with social learning dynamics on digital financial platforms.",
+    "journal_name": "Information Systems Research",
+    "journal_abbr": "ISR",
+    "publication_date": "2026-03-02",
+    "doi": "https://doi.org/10.1287/isre.2022.0631",
+    "url": "https://openalex.org/W7133185999",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "FinTech, Crowdfunding, Digital Finance",
+      "Blockchain Technology Applications and Security",
+      "Microfinance and Financial Inclusion"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "The Differential Diffusion of Exchange and Utility Value Blockchain Tokens",
+    "authors": [
+      "Yegin Genc",
+      "Harris Kyriakou",
+      "Likoebe Mohau Maruping",
+      "Ling Xue"
+    ],
+    "abstract": "Blockchain tokens are widely used in digital markets, yet they do not spread in the same way. Our research shows that tokens designed primarily for financial exchange and those designed for functional or service use diffuse through fundamentally different mechanisms even though they operate on the same underlying technology. Analyzing more than 200 million transactions across more than 24,000 Ethereum-based tokens, we find that financial tokens spread faster when they are held as part of large, diversified user portfolios yet diffuse more slowly when adopted by highly visible lead users. In direct contrast, utility tokens benefit strongly from early adoption by lead users and from transaction platforms that facilitate repeated use, whereas portfolio diversification inhibits their diffusion. These findings have important implications for practice and policy. For managers and platform designers, strategies that successfully promote financial tokens may actively hinder the adoption of utility tokens, underscoring the need for value-specific design, marketing, and platform strategies. For regulators and policymakers, the results provide empirical evidence that blockchain tokens function differently depending on their value orientation, constituting a strong empirical basis for more nuanced, behavior-based regulatory frameworks rather than one-size-fits-all approaches to digital tokens.",
+    "journal_name": "Information Systems Research",
+    "journal_abbr": "ISR",
+    "publication_date": "2026-03-02",
+    "doi": "https://doi.org/10.1287/isre.2022.0711",
+    "url": "https://openalex.org/W7133239946",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Blockchain Technology Applications and Security",
+      "Digital Platforms and Economics",
+      "FinTech, Crowdfunding, Digital Finance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "An Adaptive Federated Learning Algorithm with Attenuated Memory on Non-IID and Long-Tail Data",
+    "authors": [
+      "Yu Wu",
+      "Haijun Yang",
+      "Harris Wu",
+      "C. Han Yang"
+    ],
+    "abstract": "Data sharing and privacy protection in the business sector present dual challenges, especially in the financial and medical fields. We propose an adaptive federated learning algorithm with attenuated memory (AFLAM) to address three critical problems in federated learning: nonindependently and nonidentically distributed (non-IID), long-tail distribution, and privacy. AFLAM dynamically recalculates each client’s weight with attenuated memory of the gradient history to mitigate bias from non-IID data, enhancing the modeling ability of tail data. AFLAM protects privacy by transmitting scaled instead of true gradient information. Two AFLAM algorithms, client-based and parameter-based, are proposed. AFLAM performs better with non-IID and long-tail distribution than existing state-of-the-art methods, improving accuracy by up to 5.71%. Our algorithm provides a novel approach to data sharing and privacy protection challenges. History: Accepted by Ram Ramesh, Area Editor for Data Science &amp; Machine Learning. Funding: H. Yang is grateful for financial support from the National Natural Science Foundation of China [Grant 71771006] and the Beijing Jianlong Heavy Industry Program [Grant 20251202]. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2024.0765 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2024.0765 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-03-02",
+    "doi": "https://doi.org/10.1287/ijoc.2024.0765",
+    "url": "https://openalex.org/W7133208521",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Privacy-Preserving Technologies in Data",
+      "Stochastic Gradient Optimization Techniques",
+      "Data Stream Mining Techniques"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Code and Data Repository for An Exact Framework for Solving the Space-Time Dependent TSP",
+    "authors": [
+      "Isaac Rudich",
+      "Manuel López-Ibáñez",
+      "Michael Römer",
+      "Max Jaderberg",
+      "Louis-Martin Rousseau"
+    ],
+    "abstract": "The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper An Exact Framework for Solving the Space-Time Dependent TSP by Isaac Rudich, Manuel López-Ibáñez, Michael Römer, Quentin Cappart, and Louis-Martin Rousseau.",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-03-02",
+    "doi": "https://doi.org/10.1287/ijoc.2024.0866.cd",
+    "url": "https://openalex.org/W7133215540",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Constraint Satisfaction and Optimization",
+      "Logic, programming, and type systems",
+      "Advanced Optimization Algorithms Research"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Strategic Entry of Farmers’ Cooperatives in Agricultural Markets",
+    "authors": [
+      "Xiaoyan Qian",
+      "Quan Zhou",
+      "Tava Lennon Olsen"
+    ],
+    "abstract": "Problem definition: In agricultural markets, farmers often face powerful investor-owned firms (IOFs) that dominate marketing and impose pricing pressure at the farm-gate. To counter this, farmers can form cooperatives (co-ops), which differ from IOFs in their objectives and transaction dynamics, to collectively enter the market. Although co-ops can be established with different membership structures, the impact of their potential market entry remains unclear, as does the question of which co-op type is more likely to succeed and perform better. Methodology/results: We propose a two-stage game-theoretical model to examine farmers’ strategic responses to a dominant IOF through the formation of a co-op, with either open membership, which does not restrict membership size, or closed membership, which regulates the size. Our results show that farmers will initiate co-op formation when the farm-gate price drops below a certain threshold. The mere threat that farmers may form a co-op can pressure the IOF to raise farm-gate prices, even when the co-op does not succeed in entering the market. We also find that the farmers’ response of establishing a co-op benefits both farmers and consumers by raising farm-gate prices, while simultaneously reducing consumer prices. However, these effects diminish when the market size is sufficiently small, where the co-op no longer poses a credible threat to the IOF. We compare the benefits of closed versus open co-ops and find that, although closed co-ops are better at gaining market access, open co-ops may be more profitable for farmers. Managerial implications: By quantifying the conditions under which it occurs, the findings illustrate and extend the “competitive yardstick” effect, where co-op entry pushes the IOF to offer better services for farmers. The result that co-op formation can simultaneously improve both farmer and consumer welfare is important for policy makers as they consider economic and regulatory frameworks for co-ops. History: This paper was selected as part of the 1RR initiative between the M&amp;SOM journal and the MSOM Society. This paper was part of the 2025 MSOM Service Operations SIG Conference. Funding: This work was supported by National Natural Science Foundation of China [Grants 72371060 and 72293563]. The research of the third author was partially funded by the Australian Government through the Australian Research Council Industrial Transformation Training Centre in Optimisation Technologies, Integrated Methodologies, and Applications (OPTIMA) [Project ID IC200100009]. Supplemental Material: The online appendix is available at https://doi.org/10.1287/msom.2025.0974 .",
+    "journal_name": "Manufacturing & Service Operations Management",
+    "journal_abbr": "MSOM",
+    "publication_date": "2026-03-02",
+    "doi": "https://doi.org/10.1287/msom.2025.0974",
+    "url": "https://openalex.org/W7133216781",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Cooperative Studies and Economics",
+      "Organic Food and Agriculture",
+      "Agricultural Economics and Policy"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  }
+]
