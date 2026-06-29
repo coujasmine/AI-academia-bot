@@ -1,0 +1,1592 @@
+[
+  {
+    "title": "Stand on the shoulders of academia: The effect of academic directors on science-based breakthrough innovations",
+    "authors": [
+      "Yajing Li",
+      "Jun Xia"
+    ],
+    "abstract": "Drawing on the resource provision perspective within resource dependence theory, we argue that academic directors significantly enhance firms' capacity for science-based breakthrough innovations. This study also engages with a central debate in innovation research: whether external resources and internal capabilities function as complements or substitutes. Using panel data from 991 U.S. publicly listed innovative firms, we find that the presence of academic directors is positively associated with science-based breakthrough innovation, particularly in firms with a strong publication record. This supports the complementary relationship between external scientific expertise and internal R&D capabilities. Robustness checks—including instrumental variable analysis and natural experiments involving the sudden deaths of academic directors—reinforce our findings. These results offer new insights into how strategic leadership can leverage external academic expertise to drive transformative innovation.",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-06-27",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105569",
+    "url": "https://openalex.org/W7166340468",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Innovation and Knowledge Management",
+      "Entrepreneurship Studies and Influences",
+      "Qualitative Comparative Analysis Research"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Changing the board game: Horizontal spillovers of gender quotas",
+    "authors": [
+      "Luigi Guiso",
+      "Fabiano Schivardi",
+      "Luana Zaccaria"
+    ],
+    "abstract": "",
+    "journal_name": "Journal of Financial Economics",
+    "journal_abbr": "JFE",
+    "publication_date": "2026-06-27",
+    "doi": "https://doi.org/10.1016/j.jfineco.2026.104326",
+    "url": "https://openalex.org/W7166349666",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Gender Diversity and Inequality",
+      "Corporate Finance and Governance",
+      "Family Business Performance and Succession"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Moving Beyond the MVP in Hyper-Constrained Contexts: The Generative Power of Constraints Work",
+    "authors": [
+      "Hila Lifshitz‐Assaf",
+      "Steven Randazzo",
+      "Olivia Jung"
+    ],
+    "abstract": "In a world of increasingly numerous and contradictory constraints, this study reveals how individuals can navigate hyper-constrained contexts to rapidly develop new deployable products. We draw on an in-depth field study of seven projects developing affordable, open-source ventilators in just 75 days during the COVID-19 pandemic. Our analysis shows that innovation outcomes are fundamentally shaped by what we call \"constraints work\"—how individuals actively deal with and manage constraints—and find two types of constraints work that lead to divergent processes and outcomes. Four projects conducted “reductionist constraints work,” as they scanned, prioritized, and sequenced the key constraints. They then followed the well-known lean innovation process to sprint to a functioning minimum viable product (MVP). In contrast, three projects counterintuitively slowed down at the outset to conduct “generative constraints work,” extreme-mapping the full landscape of constraints and loading the design space even with additional hidden constraints. They then followed a “multiplex innovation process,” surfacing interdependencies among constraints and treating the resulting contradictions as design problems to be solved simultaneously. This process resulted in deployable products that went beyond the MVP, surpassing experts’ expectations. Regarding temporal pace, the multiplex innovation process entailed V-shaped acceleration—braking at the start, resisting the time pressure, to confront the full complexity of tensions, then sharply accelerating to resolve them in parallel, while the lean innovation process entailed a linear acceleration. Our findings contribute to theories of innovation and new product development processes and temporality, advancing understanding of how individuals can successfully navigate an excess of multiple, contradictory constraints.",
+    "journal_name": "Organization Science",
+    "journal_abbr": "OrgSci",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1287/orsc.2022.16727",
+    "url": "https://openalex.org/W7166060504",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Design Education and Practice",
+      "Embodied and Extended Cognition",
+      "Management and Organizational Studies"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Speed Up the Cold-Start Learning in Two-Sided Bandits with Many Arms",
+    "authors": [
+      "Mohsen Bayati",
+      "Junyu Cao",
+      "Wanning Chen"
+    ],
+    "abstract": "Multiarmed bandit (MAB) algorithms are efficient approaches to reduce the opportunity cost of online experimentation and are used by companies to find the best product from periodically refreshed product catalogs. However, these algorithms face the so-called cold-start at the onset of the experiment due to a lack of knowledge of customer preferences for new products, requiring an initial data collection phase known as the burn-in period. During this period, standard MAB algorithms operate like randomized experiments, incurring large burn-in costs which scale with the large number of products. We attempt to reduce the burn-in by identifying that many products can be cast into two-sided products and then naturally model the rewards of the products with a matrix, whose rows and columns represent the two sides, respectively. Next, we design two-phase bandit algorithms that first use subsampling and low-rank matrix estimation to obtain a substantially smaller targeted set of products and then apply a Upper Confidence Bound procedure on the target products to find the best one. We theoretically show that the proposed algorithms lower costs and expedite the experiment in cases when there is limited experimentation time along with a large product set. Our analysis also provides insights into three experiment regimes of long, short, and ultra-short horizon, determined by the dimensions of the matrix. Empirical evidence from both synthetic data and a real-world data set on music streaming services validates the superior performance suggested by our theory. This paper was accepted by J. George Shanthikumar, data science. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2022.03394 .",
+    "journal_name": "Management Science",
+    "journal_abbr": "MS",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1287/mnsc.2022.03394",
+    "url": "https://openalex.org/W4302011197",
+    "open_access": true,
+    "cited_by_count": 3,
+    "topics": [
+      "Advanced Bandit Algorithms Research",
+      "Machine Learning and Algorithms",
+      "Data Stream Mining Techniques"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "From Shadow AI to Governed AI Review: A Commentary on “Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship”",
+    "authors": [
+      "Zhenhui Jiang"
+    ],
+    "abstract": "This paper was accepted by Christoph Loch, commentary.",
+    "journal_name": "Management Science",
+    "journal_abbr": "MS",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1287/mnsc.2026.02442",
+    "url": "https://openalex.org/W7166060969",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Artificial Intelligence in Healthcare and Education",
+      "Ethics and Social Impacts of AI",
+      "Academic Publishing and Open Access"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Populism, regime characteristics, and MNC location choice",
+    "authors": [
+      "Srividya Jandhyala",
+      "Vera Kunczer",
+      "Thomas Lindner"
+    ],
+    "abstract": "Abstract Countries with populist governments are less attractive investment destinations for Multinational Corporations (MNCs), as foreign firms tend to be delegitimized and targeted as members of the outgroup. However, populist governments vary in the extent to which they delegitimize foreign firms as outsiders. Departing from the traditional right–left classification that masks key differences among political regimes, this paper investigates aspects central to populism and to how populist governments see foreign firms: business orientation and stance on immigration. Pro-business regimes perceive a greater role for private sector firms and are less likely to treat MNCs as members of the outgroup. However, regimes with a strong anti-immigration stance highlight threats to local identity and are more likely to treat MNCs as members of the outgroup. Using a dataset of over 23,000 foreign direct investments (FDI) across 61 host countries from 2008 to 2017, we find that the adverse effect of populism on FDI is diminished in pro-business regimes whereas it is amplified in regimes with strong anti-immigration stances. Furthermore, regime alignment between home and host countries reduces the negative impact of populist governments on FDI. Our research highlights the crucial role of regime characteristics in shaping FDI across populist governments.",
+    "journal_name": "Journal of International Business Studies",
+    "journal_abbr": "JIBS",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1057/s41267-026-00878-3",
+    "url": "https://openalex.org/W7166047153",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "International Business and FDI",
+      "Elite Sociology and Global Capitalism",
+      "Global trade and economics"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Government Orchestration at Play: The Influence of Disclosure Regulation on Stakeholder Accusations and the Role of CSR",
+    "authors": [
+      "Julia Bartosch",
+      "Emma Avetisyan",
+      "Philipp A. Thompson"
+    ],
+    "abstract": "Abstract Government orchestration describes regulatory settings in which governments delegate some governance functions to private actors; for instance, business conduct is monitored by stakeholders under CSR disclosure regulation. This article examines the impact of this type of regulation on stakeholder monitoring, which is a core yet little‐examined governance function. We analyse the effects of the European Union's Non‐Financial Reporting Directive (NFRD) on stakeholder accusations and on the relationship between CSR and accusations across firms in 28 OECD countries (2007–2018) using a difference‐in‐differences design. The analysis shows that government orchestration significantly increases the number of stakeholder accusations by inducing a transparency dynamic. It also demonstrates a fundamental shift in how reported CSR relates to stakeholder accusations. In the past, companies were able to protect themselves from accusations by publicly reporting their CSR efforts. More recently, two patterns have emerged: where no disclosure regulation exists, CSR no longer buffers firms against accusations; under regulation, it produces a ‘backfire effect’ whereby CSR increases accusations. These findings advance research on the government–CSR nexus and social evaluations and offer a contextual explanation for previously inconsistent results on the link between CSR and stakeholder accusations.",
+    "journal_name": "Journal of Management Studies",
+    "journal_abbr": "JMS",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1111/joms.70130",
+    "url": "https://openalex.org/W7166109656",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Corporate Social Responsibility Reporting",
+      "Political Influence and Corporate Strategies",
+      "Auditing, Earnings Management, Governance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Communicating more or less? Employees’ playful work design and their voice and feedback-seeking behaviors",
+    "authors": [
+      "Yue Wang",
+      "Youngsang Kim",
+      "Seung Soo Eo"
+    ],
+    "abstract": "Does making work more playful encourage employees to speak up or to seek feedback instead? We argue that playful work design (PWD) can lead to both outcomes, depending on how it shapes employees’ sense of ownership over their work. Drawing on extended self-theory and goal orientation theory, we propose that PWD enhances employees’ job-based psychological ownership. This heightened sense of ownership, in turn, discourages voice behavior while encouraging feedback seeking. We further show that these effects are contingent on employees’ goal orientations: performance-prove and performance-avoid orientations shape when and for whom these dynamics emerge. Using one experiment and two multi-wave survey studies, we find consistent support for our model. By uncovering the divergent interpersonal consequences of PWD, our study suggests that making work more playful is not uniformly beneficial and highlights the importance of understanding how employees interpret and enact play at work.",
+    "journal_name": "Human Relations",
+    "journal_abbr": "HR",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1177/00187267261455310",
+    "url": "https://openalex.org/W7166192279",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Job Satisfaction and Organizational Behavior",
+      "Emotional Labor in Professions",
+      "Workaholism, burnout, and well-being"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Securing Debt in the Knowledge Economy: Evidence from Intellectual Property Registers",
+    "authors": [
+      "Laurie Ciaramella",
+      "David Heller",
+      "Leo Leitzinger"
+    ],
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "journal_name": "Journal of Financial and Quantitative Analysis",
+    "journal_abbr": "JFQA",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1017/s002210902610310x",
+    "url": "https://openalex.org/W7165971516",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Auditing, Earnings Management, Governance",
+      "Intellectual Capital and Performance Analysis",
+      "Economic Growth and Development"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Climate-Triggered Institutional Price Pressure: Does It Affect Firms’ Cost of Equity? – ERRATUM",
+    "authors": [
+      "George Skiadopoulos",
+      "Cheng Xue"
+    ],
+    "abstract": "An abstract is not available for this content. As you have access to this content, full HTML content is provided on this page. A PDF of this content is also available in through the ‘Save PDF’ action button.",
+    "journal_name": "Journal of Financial and Quantitative Analysis",
+    "journal_abbr": "JFQA",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1017/s0022109026103007",
+    "url": "https://openalex.org/W7166155451",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Sustainable Finance and Green Bonds",
+      "Climate Change Policy and Economics",
+      "Corporate Social Responsibility Reporting"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Unlocking ESG Premium from Options",
+    "authors": [
+      "Jie Cao",
+      "Amit Goyal",
+      "Xintong Zhan",
+      "Weiming Elaine Zhang"
+    ],
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "journal_name": "Journal of Financial and Quantitative Analysis",
+    "journal_abbr": "JFQA",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1017/s0022109026103123",
+    "url": "https://openalex.org/W3191689622",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Market Dynamics and Volatility",
+      "Financial Markets and Investment Strategies",
+      "Capital Investment and Risk Analysis"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Recent Referees",
+    "authors": [],
+    "abstract": "",
+    "journal_name": "Journal of Political Economy",
+    "journal_abbr": "JPE",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1086/742834",
+    "url": "https://openalex.org/W7166073130",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Legal principles and applications",
+      "World Wars: History, Literature, and Impact",
+      "International Arbitration and Investment Law"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Front Matter",
+    "authors": [],
+    "abstract": "",
+    "journal_name": "Journal of Political Economy",
+    "journal_abbr": "JPE",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1086/742833",
+    "url": "https://openalex.org/W7166207359",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "JPE Turnaround Times",
+    "authors": [],
+    "abstract": "",
+    "journal_name": "Journal of Political Economy",
+    "journal_abbr": "JPE",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1086/742464",
+    "url": "https://openalex.org/W7166079949",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Human auditory perception and evaluation",
+      "Corporate Insolvency and Governance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Asymmetric Algorithm Aversion",
+    "authors": [
+      "Saunak Basu",
+      "Alan R. Dennis",
+      "Aravinda Garimella",
+      "Wencui Han"
+    ],
+    "abstract": "We examine human decision-making in the presence of Artificial Intelligence (AI) advice in the context of Fintech. Through four studies (two randomized controlled experiments, a field study, and a qualitative interview study), we show that human acceptance of AI advice exhibits asymmetric algorithm aversion that depends on the advice the AI provides. In our Fintech setting, investments are commonly assessed using criteria based on both explicit knowledge and tacit knowledge. Human experts believed that AI had the ability to effectively use explicit knowledge but were less confident in its ability to effectively use tacit knowledge (a common perception regarding AI). As a result, AI advice significantly influenced experts’ evaluations when it recommended against investing, as they believed that this advice could have been correctly generated using explicit knowledge criteria alone. However, AI advice had no significant effect on experts’ evaluations when it recommended investing, as they believed that this advice could not have been correctly generated without using both types of knowledge and that AI could not effectively use tacit knowledge. Instead, AI advice to invest served as a trigger for them to examine the investment with a focus on tacit knowledge criteria, which often meant that the human expert’s evaluation did not match AI’s advice. We did not find this same asymmetric pattern for accepting human advice in this context, indicating that the results are not due to loss aversion. Recognizing asymmetric algorithm aversion—that human experts are more likely to accept AI’s advice when it produces one recommendation and less likely when it produces a different recommendation —is important because an inconsistent attitude towards accepting AI advice may lead to systematic biases in human-AI collaboration that may defeat the very purpose of using AI.",
+    "journal_name": "Information Systems Research",
+    "journal_abbr": "ISR",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1287/isre.2023.0635",
+    "url": "https://openalex.org/W7166161600",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "FinTech, Crowdfunding, Digital Finance",
+      "AI in Service Interactions",
+      "Ethics and Social Impacts of AI"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "MultiObjectiveAlgorithms.jl: A Julia Package for Solving Multiobjective Optimization Problems",
+    "authors": [
+      "Oscar Dowson",
+      "Xavier Gandibleux",
+      "Gökhan Kof"
+    ],
+    "abstract": "We present MultiObjectiveAlgorithms.jl, an open-source Julia library for solving multiobjective optimization problems written in JuMP. MultiObjectiveAlgorithms.jl implements 10 different solution algorithms that all rely on an iterative scalarization of the problem from a multiobjective optimization problem to a sequence of single-objective subproblems. As part of this work, we extended JuMP to support vector-valued objective functions. Because it is based on JuMP, MultiObjectiveAlgorithms.jl can use a wide variety of commercial and open-source solvers to solve the single-objective subproblems, and it supports problem classes including linear, integer, conic, semidefinite, and general nonlinear. History: Accepted by Ted Ralphs, Area Editor for Software Tools. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2025.1449 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2025.1449 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1287/ijoc.2025.1449",
+    "url": "https://openalex.org/W4416060356",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Advanced Multi-Objective Optimization Algorithms",
+      "Advanced Optimization Algorithms Research",
+      "Process Optimization and Integration"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "The Effect of Stress on Ethical Consumption: Do We Only Buy Ethically When We Are Not Stressed?",
+    "authors": [
+      "Philipp Dieckmann",
+      "Benjamin von Walter",
+      "Daniel Wentzel"
+    ],
+    "abstract": "",
+    "journal_name": "Journal of Business Ethics",
+    "journal_abbr": "JBE",
+    "publication_date": "2026-06-26",
+    "doi": "https://doi.org/10.1007/s10551-026-06379-5",
+    "url": "https://openalex.org/W7165906589",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Ethics in Business and Education",
+      "Emotional Labor in Professions",
+      "Psychology of Moral and Emotional Judgment"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Hope, signals, and silicon: A game-theoretic model of the pre-doctoral academic labor market in the age of AI",
+    "authors": [
+      "Shaohui Wang"
+    ],
+    "abstract": "",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105568",
+    "url": "https://openalex.org/W4415935384",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Ethics and Social Impacts of AI",
+      "Doctoral Education Challenges and Solutions",
+      "Innovation, Sustainability, Human-Machine Systems"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Understanding cascading failure across innovation journeys: The case of antibiotics development",
+    "authors": [
+      "Birke Otto",
+      "Harry Sminia",
+      "Jörg Sydow"
+    ],
+    "abstract": "Innovation failure is widespread yet remains difficult to theorize. While much existing research treats failure as an event attributable to internal mismanagement, systemic imperfections or a combination of both, more recent work emphasizes its processual and relational character. Building on this latter stream, this paper reconceptualize innovation failure as a dynamic and socially mediated process that unfolds across interrelated innovation journeys within an innovation field. Rather than asking why innovations fail, we examine how failure experiences are constituted in practice, how actors respond to them, and how these responses accumulate over time to shape innovation field dynamics. Empirically, we analyze responses to the common setback of a discontinued clinical trial in the field of antibiotic innovation in the face of increasing antimicrobial resistance. We identify three typical responses (reviving, shifting, giving up) elicited by such a setback and find that in their interaction these responses produce an increasingly constraining structure that affects innovation activities in the field. We conceptualize this dynamic as cascading failure, a process through which successive and recursive responses to setbacks transform innovation expectations into constraints for further innovation. The concept of cascading failure explains why the discourse of a “broken market” and an “empty pipeline” that charactersises antibiotic innovation has become so persistent and perfomative.",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105482",
+    "url": "https://openalex.org/W7165953035",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Pharmaceutical Economics and Policy",
+      "Antibiotic Use and Resistance",
+      "Intellectual Property and Patents"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "EXPRESS: Preference Filtering: When Customers Share Narrow Preferences with Algorithms",
+    "authors": [
+      "Phyliss Jia Gai",
+      "Eugina Leung",
+      "Anne-Kathrin Klesse"
+    ],
+    "abstract": "Digital platforms commonly ask customers to select interest categories (e.g., genres/topics) as input for personalized recommendations. Twelve main studies and two pilot studies (total N = 8,824) reveal that customers share less diverse preferences with algorithms (versus human curators or when merely listing preferences for themselves); they focus on core preferences while omitting tangential ones, a phenomenon termed preference filtering . It is driven by customers’ expectation that algorithms weigh their preferences more uniformly than human curators (i.e., expected uniformity). A mathematical model, as well as interviews and a survey with practitioners show that preference filtering appears rational ex ante yet leads to negative consequences for both customers and firms ex post. The authors examine key design dimensions of the preference elicitation task— when preferences are elicited, how customers articulate them, what purpose is made salient, and who customers believe they are interacting with—that determine the extent to which customers engage in preference filtering. Two studies on self-developed video-streaming websites show that alleviating preference filtering can boost engagement and enhance customer reviews of recommendation services. These findings offer valuable insights for firms that rely on algorithms to engage customers.",
+    "journal_name": "Journal of Marketing",
+    "journal_abbr": "JM",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1177/00222429261466254",
+    "url": "https://openalex.org/W7165858097",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Recommender Systems and Techniques",
+      "Mobile Crowdsensing and Crowdsourcing",
+      "AI in Service Interactions"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "EXPRESS: Seeding Social Affirmation: Influencer + Follower Seeding Strategies and the Diffusion of Online Word-of-Mouth",
+    "authors": [
+      "Hee Mok Park",
+      "Minki Kim",
+      "Nicholas H. Lurie"
+    ],
+    "abstract": "Given influencers’ greater social influence, managers are often advised to target influencers alone in social media marketing. However, the spread of word-of-mouth (WOM) may be enhanced by social affirmation (i.e., cues a message is valuable to others). The authors show that an influencer + follower seeding strategy, in which the best influencer-follower pair in a social network is chosen to tweet and retweet a message, respectively, outperforms an influencer-only strategy in spreading word-of-mouth. Lab experiments show that the likelihood that a user chooses to share or engage with a promoted tweet is higher under an influencer + follower strategy than under an influencer-only or influencer-twice strategy. Greater perceived message value to others explains these results. A field study involving promoted tweets shows that an influencer + follower strategy leads to greater event attendance than a two-influencer strategy. Simulation results show that the advantages of influencer + follower seeding strategies over influencer-only strategies are greater for social networks characterized by a stronger response to social affirmation. When social affirmation is not important to WOM diffusion, an influencer-only seeding strategy is superior. These findings contribute to research on seeding strategies and provide firms a way to improve return on investments in influencer marketing.",
+    "journal_name": "Journal of Marketing",
+    "journal_abbr": "JM",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1177/00222429261466252",
+    "url": "https://openalex.org/W7165932070",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Digital Marketing and Social Media",
+      "Sentiment Analysis and Opinion Mining",
+      "Spam and Phishing Detection"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Does Mobile Communication Technology Have Capital Market Consequences? Evidence From Worldwide Launches of <scp>3G</scp> Networks",
+    "authors": [
+      "Jinshuai Hu",
+      "Yongtae Kim",
+      "Siqi Li",
+      "Yibing Wu"
+    ],
+    "abstract": "ABSTRACT Exploiting the staggered rollout of third‐generation (3G) mobile broadband networks across 40 countries between 1999 and 2012, we examine how technological progress affects capital markets. We find that the introduction of 3G networks is followed by a reduction in bid‐ask spreads and an increase in price informativeness. These effects are more pronounced among firms with lower institutional ownership, indicating that information access through mobile broadband networks disproportionally benefits retail investors. We further show that these effects are concentrated in countries with well‐functioning markets, as characterized by transparent accounting information, broad investor participation, and strong legal protections for investors. Taken together, our findings suggest that mobile broadband connectivity reduces information frictions and improves price informativeness. They further highlight the institutional conditions under which these benefits materialize.",
+    "journal_name": "Contemporary Accounting Research",
+    "journal_abbr": "CAR",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1111/1911-3846.70062",
+    "url": "https://openalex.org/W7166054964",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "ICT Impact and Policies",
+      "Economic Growth and Development",
+      "Digital Platforms and Economics"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Sound analysis? Investing podcasts and investor information processing",
+    "authors": [
+      "Braiden Coleman",
+      "Karson Fronk",
+      "Matthew Hall",
+      "Brady J. Twedt"
+    ],
+    "abstract": "Abstract Despite the rapid growth of podcasts as a source of investment information, we know little about their potential capital market effects. We find that the release of podcasts that provide listeners with firm-specific investment analysis is associated with significant increases in trading activity, particularly among retail investors. When released following earnings announcements, investing podcasts appear to provide information to less-informed investors that helps them better process the news, as podcast discussion is associated with reductions in information asymmetry. This effect is stronger for podcasts that include guests, have greater narrative distinctiveness across speakers, convey information more rapidly, and focus more on fundamental analysis. Podcast discussion is also associated with faster price formation and heightened earnings response coefficients, with no evidence of return reversals. Overall, our results are consistent with investing podcasts helping investors to better process information and provide novel evidence on how this emerging technology impacts capital markets.",
+    "journal_name": "Review of Accounting Studies",
+    "journal_abbr": "RAST",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1007/s11142-026-09960-5",
+    "url": "https://openalex.org/W7165964216",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Financial Markets and Investment Strategies",
+      "Radio, Podcasts, and Digital Media",
+      "Auditing, Earnings Management, Governance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Crowding-Out Innovation",
+    "authors": [
+      "Julian Atanassov",
+      "Vikram Nanda"
+    ],
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "journal_name": "Journal of Financial and Quantitative Analysis",
+    "journal_abbr": "JFQA",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1017/s0022109026103111",
+    "url": "https://openalex.org/W7165885263",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Open Source Software Innovations",
+      "Innovation, Technology, and Society",
+      "Innovation and Socioeconomic Development"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Skill-Replacing Technology and Bottom-Half Inequality",
+    "authors": [
+      "Oren Danieli"
+    ],
+    "abstract": "Abstract I propose a model of skill-replacing routine-biased technological change (SR-RBTC). In this model, technology substitutes for the use of skill in routine tasks, in contrast to standard RBTC models, which assume that technology replaces the workers themselves. The SR-RBTC model explains three key trends that are inconsistent with standard RBTC models: 1) why specifically middle wages declined even though workers in routine occupations are dispersed across the entire bottom half of the wage distribution, 2) why middle wages stopped declining while technological change continued, and 3) why there is no substantial decline in the average wage of workers in routine occupations. I derive two new testable predictions from the model: a decrease in the return to skill and a decrease in skill level in routine occupations. I use an interactive fixed-effects model to confirm both predictions. Since SR-RBTC violates the ignorability assumption required by standard decomposition methods, I introduce a “skewness decomposition” to show that SR-RBTC is the main driver of bottom-half inequality trends.",
+    "journal_name": "The Review of Economic Studies",
+    "journal_abbr": "ReStud",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1093/restud/rdag068",
+    "url": "https://openalex.org/W7166075139",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Labor market dynamics and wage inequality",
+      "Economic Growth and Productivity",
+      "Economic Policies and Impacts"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Sparse PCA with Multiple Components",
+    "authors": [
+      "Ryan Cory-Wright",
+      "Jean Pauphilet"
+    ],
+    "abstract": "Sparse PCA with Multiple Components As the dimension of data sets increases, analysts often rely on principal component analysis (PCA) to summarize data via a small number of informative principal components (PCs). Sparse PCA makes those directions easier to interpret by using only selected variables, but computing several sparse components at once creates a problem: standard one-at-a-time methods lose the orthogonality that makes PCA useful in practice. In “Sparse PCA With Multiple Components,” Ryan Cory-Wright and Jean Pauphilet develop optimization-based methods that choose multiple sparse principal components simultaneously. Their approaches combine semidefinite relaxations, Lagrangian decompositions, and a new combinatorial upper bound to produce sparse, orthogonal components along with certificates of near optimality. Across real and synthetic data sets, the methods deliver high-quality solutions at practical scales, with average bound gaps around 3% for real-world instances with hundreds or thousands of features. The work gives practitioners a principled way to obtain interpretable low-dimensional representations without sacrificing the structural guarantees of PCA.",
+    "journal_name": "Operations Research",
+    "journal_abbr": "OR",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1287/opre.2023.0598",
+    "url": "https://openalex.org/W4298185909",
+    "open_access": true,
+    "cited_by_count": 8,
+    "topics": [
+      "Sparse and Compressive Sensing Techniques",
+      "Face and Expression Recognition",
+      "Blind Source Separation Techniques"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Combating Gerrymandering with Ranked Choice Voting: An Experimental Analysis of Multimember Districts in the United States",
+    "authors": [
+      "Nikhil Garg",
+      "Wes Gurnee",
+      "David Rothschild",
+      "David B. Shmoys"
+    ],
+    "abstract": "Blunting Gerrymandering with Multimember Districts How much can election rules blunt the power of partisan mapmakers? In the Operations Research paper “Combating Gerrymandering with Ranked Choice Voting: An Experimental Analysis of Multimember Districts in the United States,” Nikhil Garg, Wes Gurnee, David Rothschild, and David B. Shmoys study this question by combining computational redistricting with models of multiwinner voting. The authors compare single-member districts with multimember districts elected under rules such as single transferable vote (ranked choice voting), using algorithmically generated maps for the U.S. House of Representatives. Their results suggest that even modest three-member districts can help independent commissions reach proportional outcomes, sharply reducing the range of outcomes available to partisan gerrymanderers. The study also tests robustness under voter crossover and explores trade-offs involving geographic cohesion and within-party diversity. The paper points to election-system design as an operations research problem with direct democratic consequences.",
+    "journal_name": "Operations Research",
+    "journal_abbr": "OR",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1287/opre.2024.1167",
+    "url": "https://openalex.org/W7165941597",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Electoral Systems and Political Participation",
+      "Game Theory and Voting Systems",
+      "Local Government Finance and Decentralization"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Transmission Interaction Persistence (TIP): A Supply Chain and Epidemiological Model for Zoonotic Virus Outbreaks",
+    "authors": [
+      "Retsef Levi",
+      "Nicholas Rengar",
+      "El Ghali Zerhouni"
+    ],
+    "abstract": "Problem definition: Zoonotic viruses that jump from animals to humans, like avian influenza or severe acute respiratory syndrome, have caused major pandemics in recent decades. Many of these pandemics originated in China, a major supplier and consumer in the global food supply chain, and in other low- and middle-income countries. Interestingly, these outbreaks have been linked to live animal markets, even when the surrounding farms supplying markets had very low infection prevalence. This suggests that these markets potentially amplify and propagate the spread of zoonotic viruses. Yet, traditional epidemiological models cannot explain the observed outbreaks in these markets. Methodology/results: This paper introduces an epidemiological model that integrates supply chain and in-market operational dynamics to explain the role of markets in zoonotic virus spread, focusing on avian influenza. The transmission, interaction, and persistence model incorporates stochastic supply chain and in-market dynamics into traditional epidemiological frameworks. The analytical results demonstrate how major outbreaks could occur in markets, even when the infection prevalence among animals sourced from the surrounding farms is very low, and animals remain in the market for less than a day. This is the result of two important dynamics. The first is concerned with the supply chain structure in which markets serve as a consolidation point of agricultural inputs from many small farms. The other is driven by in-market operations that affect environmental in-market infection evolution, particularly persistent infection through two-sided interactions between animals and wastewater, surfaces, and feed that exist in the environment within the market. Managerial implications: This paper highlights the important role of supply chain structure and market operational dynamics in influencing environmental infections and facilitating the spread of zoonotic viruses. Additionally, the TIP model enables the evaluation of the effectiveness of critical in-market and supply chain interventions to prevent infection outbreaks. History: This paper was selected as part of the 1RR initiative between the M&amp;SOM Journal and the MSOM Society. This paper was part of the 2024 MSOM Supply Chain Management SIG Conference. Funding: The work of E. G. Zerhouni was partially funded by an award from the Walmart Foundation. Supplemental Material: The online appendices are available at https://doi.org/10.1287/msom.2024.1318 .",
+    "journal_name": "Manufacturing & Service Operations Management",
+    "journal_abbr": "MSOM",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1287/msom.2024.1318",
+    "url": "https://openalex.org/W7165929331",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Animal Disease Management and Epidemiology",
+      "Food Supply Chain Traceability",
+      "Zoonotic diseases and public health"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "EXPRESS: Supply Chain Coordination under Unknown Demand Distribution: Online Learning and Contracting",
+    "authors": [
+      "Mengxiao Zhang",
+      "Shi Chen",
+      "Haipeng Luo",
+      "Yingfei Wang"
+    ],
+    "abstract": "Multi-echelon stochastic inventory models with known demand distributions have long underpinned supply chain coordination, yielding first-best policies in centralized systems and contract mechanisms that induce decentralized agents to implement these policies. We revisit the classic two-echelon inventory model in an online learning setting with unknown demand, which necessitates rethinking both inventory control and coordination strategies. This setting poses three key challenges: (i) the overall loss function may be non-convex, limiting the applicability of standard online convex optimization methods; (ii) the multi-echelon structure creates information asymmetry, as the upstream agent observes only order quantities—potentially distorted by downstream learning—rather than true consumer demand; and (iii) realized inventory levels may exceed desired targets, further complicating learning dynamics. To address these challenges, we develop algorithms that combine online optimization with low-switching mechanisms and augmented loss functions, enabling effective learning despite these complexities. In the centralized setting, our algorithm converges to the first-best policy with low regret. In the decentralized setting, we design an adaptive coordination mechanism that yields favorable individual regret guarantees while learning the optimal contract, thereby incentivizing agents to implement the first-best policy and minimizing overall system regret. Numerical experiments demonstrate that our approach consistently outperforms standard benchmarks such as explore-then-exploit and vanilla online gradient descent, highlighting its robustness and practical relevance for supply chain coordination under demand uncertainty.",
+    "journal_name": "Production and Operations Management",
+    "journal_abbr": "POM",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1177/10591478261466542",
+    "url": "https://openalex.org/W7165966977",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Supply Chain and Inventory Management",
+      "Advanced Bandit Algorithms Research",
+      "Game Theory and Applications"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "EXPRESS: Personalized Pricing with Consumers’ Quality Uncertainty",
+    "authors": [
+      "Guangzhi Chen",
+      "Tianxin Zou"
+    ],
+    "abstract": "We examine a firm's personalized pricing (PP) strategies in markets where consumers are uncertain about product quality. In such markets, prices serve not only as a tool for price discrimination but also as a means of conveying quality information to consumers. We reveal that a firm faces a tradeoff between adopting PP to better price discriminate among consumers and not adopting it to signal its high quality. We find that a high-quality firm should adopt PP only when its product quality is known to either a very small or a very large fraction of consumers, and when its high-quality product, on average, offers either very low or very high additional value to consumers relative to a low-quality product. Moreover, the high-quality firm may charge consumers personalized prices less than their willingness to pay to signal its quality in equilibrium, deviating from first-degree price discrimination when consumers are informed about quality. Counterintuitively, when more consumers know product quality or when the high-quality product provides higher average value to consumers, consumer surplus and social welfare may decrease, but a low-quality firm’s profit may increase. Furthermore, the firm’s profit can be lower when its personalized pricing leverages more information about consumer characteristics. Randomized experiments provide evidence that a personalized price is a weaker signal of objective product quality than a uniform price.",
+    "journal_name": "Production and Operations Management",
+    "journal_abbr": "POM",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1177/10591478261465977",
+    "url": "https://openalex.org/W7165888030",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Consumer Market Behavior and Pricing",
+      "Digital Platforms and Economics",
+      "Supply Chain and Inventory Management"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "EXPRESS: Using Blockchain to Combat Multiple Types of Counterfeits: Adoption Strategy and Value Analysis",
+    "authors": [
+      "Chao He",
+      "Chunqiao Tan",
+      "Yangyan Shi",
+      "Arvind Tripathi"
+    ],
+    "abstract": "This study examines manufacturers’ (i.e., brand-name firms’) incentives to adopt blockchain technology-supported (BTS) platforms in markets where deceptive and non-deceptive counterfeits coexist. It is among the first to analyze the adoption of BTS platforms in the context of a complex counterfeit market. First, the study integrates consumers’ perceived risk concerning product authenticity (CPRPA) into a signaling game model to examine the impacts of quality information asymmetry on market dynamics. The findings reveal that even though heightened CPRPA incentivizes deceptive counterfeiters to engage in non-deceptive sales (disclosing the true quality of their products), quality information asymmetry still exerts adverse impacts on both manufacturers and consumers, while simultaneously benefiting all counterfeiters. Second, the study evaluates manufacturers’ optimal strategies for adopting BTS platforms and the value derived from such adoption. The results suggest that CPRPA exerts a non-monotonic impact on manufacturers’ optimal decisions to adopt BTS platforms, and manufacturers may never benefit from such adoption in the presence of deceptive sales. Although higher adoption costs diminish the effectiveness of BTS platforms, such adoption can reduce illegal profits and improve consumer surplus. However, the adoption of BTS platforms may inadvertently increase demand for deceptive counterfeits. Consequently, BTS platforms are found to exert a more marked effect in combating non-deceptive counterfeits than deceptive ones. Additionally, BTS platform adoption contributes more to improving consumer surplus than to combating counterfeits.",
+    "journal_name": "Production and Operations Management",
+    "journal_abbr": "POM",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1177/10591478261465974",
+    "url": "https://openalex.org/W7165965169",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Digital Platforms and Economics",
+      "Consumer Market Behavior and Pricing",
+      "Technology Adoption and User Behaviour"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "The Efficiency of Moral Character: Modelling Principal–Agent Relations and Caring Agents Within the Fiduciary",
+    "authors": [
+      "Gordon Menzies",
+      "Isa Hafalir",
+      "Thomas Simpson"
+    ],
+    "abstract": "Abstract This paper reconsiders how intrinsic motives that support trustworthiness should be modelled within economic theory, contributing to a methodologically pluralist business ethics. We re-examine the principal–agent problem, exposing a hidden assumption in the classic Jensen and Meckling (1976) solution. By introducing a lying cost—reflecting the agent’s concern for honesty—we reveal their model as a limiting case and distinguish between opportunistic agents and what we call ‘caring agents’, who have a disposition to tell the truth. When lying costs are sufficiently high, a first-best, fixed-wage contract becomes optimal, offering an alternative to the standard incentive-based approach. We also present a dynamic model in which incentive contracts may erode honesty over time, by signalling distrust and lowering agents’ lying costs—a downward spiral that crowds out trustworthiness. Drawing on recent developments in the philosophy of trust, we show how moral commitments can be formally integrated into economic models. Our results shed light on debates about the proper function of fiduciary relationships as recognized in law, and contribute to the explanation of why salaried contracts remain prevalent in professional roles, where strong financial incentives are also often resisted. Moral character, we argue, is not only normatively significant but also economically efficient.",
+    "journal_name": "Journal of Business Ethics",
+    "journal_abbr": "JBE",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1007/s10551-026-06380-y",
+    "url": "https://openalex.org/W7165858173",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Experimental Behavioral Economics Studies",
+      "Legal principles and applications",
+      "Ethics in Business and Education"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Conceptualizing and Measuring Consumer Perceptions of Corporate Social Responsibility: A Review and Empirical Assessment of Five Approaches",
+    "authors": [
+      "Petar Gidaković",
+      "Simone Carmine",
+      "Valérie Swaen"
+    ],
+    "abstract": "Abstract To clarify consumers’ perceptions of corporate social responsibility (CSR), this research identifies and evaluates different approaches to conceptualizing this construct, addresses construct validity issues, and tests an integrative model that links CSR perceptions to key antecedents and both moral- and business-case outcomes. A narrative review of the studies proposing conceptualizations and measurement scales for consumer CSR perceptions reveals five distinct theoretical approaches, which are empirically assessed across two studies (combined N = 3,277). Both studies show that more parsimonious conceptualization approaches—rooted in personality theory and associative memory networks—exhibit superior convergent, discriminant, and nomological validity than more complex conceptualization approaches, based on stakeholder theory, Carroll’s conceptualization, and the triple bottom line. The findings also indicate that CSR perceptions are influenced by both subjective consumer-level factors and company-level attributes, and that consumer perceptions of CSR have a significant predictive value for outcomes relevant to both moral considerations and corporate performance. This research provides actionable insights for scholars seeking to advance CSR theory and for practitioners aiming to align CSR initiatives with consumer expectations and strategic objectives.",
+    "journal_name": "Journal of Business Ethics",
+    "journal_abbr": "JBE",
+    "publication_date": "2026-06-25",
+    "doi": "https://doi.org/10.1007/s10551-026-06375-9",
+    "url": "https://openalex.org/W7165889558",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Corporate Social Responsibility Reporting",
+      "Ethics in Business and Education",
+      "Environmental Sustainability in Business"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Implicit criteria weighting and evaluators' backgrounds in grant peer review",
+    "authors": [
+      "Chiara Franzoni",
+      "Anders Broström",
+      "Andola Stanaj",
+      "Paula Stephan"
+    ],
+    "abstract": "Grant peer review (GPR) is a cornerstone of modern research funding, yet the process by which reviewers integrate multiple criteria into a single overall evaluation—known as commensuration —remains poorly understood. We study the implicit weights that reviewers assign to PI qualifications, research quality, and societal relevance, using a unique dataset of 2105 review reports for 586 proposals submitted to the Swedish Foundation for Strategic Research (2011–2017), complemented by manual coding of comments and interviews with screeners and funding officers. Commensuration influences roughly 29% of final scores. The research quality criterion dominates evaluations, receiving about twice the weight of relevance. This commensuration pattern is surprisingly stable across pools of reviewers from different fields and geographic areas and irrespective of the reviewers' profile and their presumed ability to assess relevance. PI qualifications generally play a minor role, tempering concerns about pervasive reputational advantages, and tend to be used more when evaluators feel less competent, hinting that reputation is used as a fallback consideration when the reviewer lacks confidence. Overall, the results suggest that commensuration may systematically contribute to prioritizing technical merit over relevance even beyond the intentions of the funders.",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105535",
+    "url": "https://openalex.org/W7165809626",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "scientometrics and bibliometrics research",
+      "Academic Publishing and Open Access",
+      "Expert finding and Q&A systems"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "How do within-industry CVC investments shape industry concentration?",
+    "authors": [
+      "Muntaser Mohamed Nuttah",
+      "Paolo Roma",
+      "Cristiano Bellavitis",
+      "Yong Li",
+      "Giovanni Perrone"
+    ],
+    "abstract": "Corporate venture capital (CVC) investments can shape industry dynamics in different ways. On one hand, they provide financial resources, expertise, and credibility that help new ventures survive and grow, thereby fostering competition. On the other hand, incumbents can use CVC to absorb knowledge and capabilities from entrepreneurial ventures, strengthening CVC investors' market positions and limiting rivalry. Given these opposing forces, it remains an open question whether higher levels of CVC investments raise or lower industry concentration. This paper advances the literature by uncovering three mechanisms underscoring the impact of within-industry CVC investments (i.e., those with both investors and investees operating in the same industry) on industry concentration and conducting an empirical analysis across U.S. industries from 2001 to 2019. Results show that greater salience of within-industry CVC investments leads to higher industry concentration. The findings carry important implications for entrepreneurial ventures, incumbents, and policymakers.",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105567",
+    "url": "https://openalex.org/W7165739390",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Private Equity and Venture Capital",
+      "International Business and FDI",
+      "Firm Innovation and Growth"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Reaching for low-hanging fruits and staying in low-value paths: Introducing capability trap theory to transition studies",
+    "authors": [
+      "Maria Tomai",
+      "George Papachristos"
+    ],
+    "abstract": "Our current production and consumption systems generate urban waste that has become a significant sustainability transition challenge. The urgency of the issue and the failure to appreciate the long-term consequences of policies lead to choices that are effective in the short term with little effort, analogous to reaching for ‘low-hanging fruit’. However, these choices also lead to the neglect of opportunities to explore policies that may eliminate the root causes of the issue and lead to long-term improvements in the capabilities and performance of Solid Waste Management (SWM) systems. In this way, path dependence builds in SWM systems and keeps them in a capability trap, i.e., an operation mode of low performance and low value. In this paper, we introduce capability trap theory to transition studies and illustrate it in the case of Accra's SWM system in Ghana, and its transition from a linear to a circular mode of operation. In the analysis of the case, we use the whole system reconfiguration approach to ‘zoom out’ to the whole system structure and appreciate the multiple sources of change and their effects on the system structure. Then, we use the system dynamics approach to ‘zoom in’ to the feedback loops of the SWM sub-systems and show how they give rise to the capability trap. We draw on stakeholder interviews and workshops to identify leverage points for path creation towards a sustainable, circular SWM system. The combination of the two approaches and the introduction of capability trap theory into transition studies enhances our understanding of path dependence and leverage points for path creation in transition processes.",
+    "journal_name": "Research Policy",
+    "journal_abbr": "RP",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1016/j.respol.2026.105532",
+    "url": "https://openalex.org/W7165804470",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Chaos, Complexity, and Education",
+      "Innovation, Sustainability, Human-Machine Systems",
+      "Ego Development and Educational Practices"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "ESG and the Stock Market: Is ESG Exposure Systematic?",
+    "authors": [
+      "Liya Chu",
+      "Kent Wang",
+      "Bohui Zhang",
+      "Guofu Zhou"
+    ],
+    "abstract": "We study the relation between firms’ environmental, social, and governance (ESG) performance and the aggregate stock market returns. Based on 38 individual ESG measures, we construct a market-level ESG index. With both the traditional predictive regression approach and two recently developed machine-learning methods, we find that the ESG index has strong and positive predictive power on the market both in- and out-of-sample, and both the cash flow and discount rate channels are the economic drivers of predictability. Our results are robust to a number of controls and set-ups. Our novel finding on the significant market-wide impact of the ESG provides support for the economy-wide importance of the ESG risk and for the central role played by governments. This paper was accepted by Caroline Flammer, sustainability. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07169 .",
+    "journal_name": "Management Science",
+    "journal_abbr": "MS",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1287/mnsc.2024.07169",
+    "url": "https://openalex.org/W7165788905",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Corporate Social Responsibility Reporting",
+      "Sustainable Finance and Green Bonds",
+      "Energy, Environment, Economic Growth"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "The Portfolio Ceiling in Asymmetric Alliances: Large Partners and the Internationalization of Japanese <scp>SMEs</scp>",
+    "authors": [
+      "Tianyou Hu",
+      "Andrew Delios"
+    ],
+    "abstract": "Abstract Large partners are critical for small‐ and medium‐sized enterprises (SMEs) seeking to overcome resource constraints in internationalization. However, as an SME's portfolio of size‐asymmetric alliances expands, governance costs can increase during post‐formation alliance management. We develop theory on the resource benefits and governance costs of asymmetric alliance portfolios, arguing that the net benefit of access to large partners' resources is bounded by a portfolio ceiling. Initial alliances with large partners provide knowledge, legitimacy and network support that facilitate foreign direct investment (FDI) entries. As the portfolio expands, however, cross‐partner interfaces, safeguarding demands and partner competition consume scarce managerial capacity, limiting SMEs' ability to mobilize large partners' resources. Using a 30‐year firm‐year panel (1990–2019) of Japanese SME trading companies and their equity alliances with business‐group‐affiliated general trading companies, we identify an inverted U‐shaped relationship between the number of large partners and FDI entries, consistent with this portfolio ceiling. In line with our theory, competition among large partners is negatively associated with FDI entries. Overall, our study shows that, for resource‐constrained firms, the net value of asymmetric alliance portfolios depends on the balance between partner resource benefits and portfolio‐level governance costs.",
+    "journal_name": "Journal of Management Studies",
+    "journal_abbr": "JMS",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1111/joms.70129",
+    "url": "https://openalex.org/W7165770145",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "International Business and FDI",
+      "Innovation and Knowledge Management",
+      "Outsourcing and Supply Chain Management"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Can I extend my day? The impact of chronotype on organizational citizenship behaviors via time extension self-efficacy",
+    "authors": [
+      "Ji Woon Ryu",
+      "Cristiano L. Guarana",
+      "Miguel Caldas",
+      "J Lee"
+    ],
+    "abstract": "",
+    "journal_name": "Organizational Behavior and Human Decision Processes",
+    "journal_abbr": "OBHDP",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1016/j.obhdp.2026.104506",
+    "url": "https://openalex.org/W7165774208",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Work-Family Balance Challenges",
+      "Psychological and Temporal Perspectives Research",
+      "Mind wandering and attention"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Unpacking packaging—a meta-analysis on the effects of visual packaging elements",
+    "authors": [
+      "Timpe Callebaut",
+      "Iina Ikonen",
+      "Kelly Geyskens",
+      "Kathleen Cleeren"
+    ],
+    "abstract": "",
+    "journal_name": "Journal of the Academy of Marketing Science",
+    "journal_abbr": "JAMS",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1007/s11747-026-01172-2",
+    "url": "https://openalex.org/W7165792459",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Consumer Packaging Perceptions and Trends",
+      "Material Properties and Processing",
+      "Ergonomics and Musculoskeletal Disorders"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Mutual Fund Flows at Long Horizons",
+    "authors": [
+      "Hendrik Bessembinder",
+      "Shuaiyu Chen",
+      "Michael J. Cooper",
+      "Jinming Xue",
+      "Feng Zhang"
+    ],
+    "abstract": "Abstract We show that positive flows to active mutual funds with high recent returns partially reverse at longer horizons. This outcome is robust across a broad range of alternative specifications. Reversal occurs from greater outflows associated with high prior returns, not reduced inflows. We test theories to explain the reversal: investment life cycles, tax loss selling, and a behavioral “disappointment” hypothesis based on investors’ overreaction to positive returns. While both tax loss selling and short investor life cycles can contribute, the evidence supports a role for investor disappointment, whereby investors redeem their capital when return performance fails to meet expectations. (JEL G10, G23)",
+    "journal_name": "Review of Financial Studies",
+    "journal_abbr": "RFS",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1093/rfs/hhag059",
+    "url": "https://openalex.org/W7166041107",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Financial Markets and Investment Strategies",
+      "Corporate Finance and Governance",
+      "Auditing, Earnings Management, Governance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Measuring the Cost of Regulation: A Text-Based Approach",
+    "authors": [
+      "Charles W. Calomiris",
+      "Harry Mamaysky",
+      "Ruoke Yang"
+    ],
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
+    "journal_name": "Journal of Financial and Quantitative Analysis",
+    "journal_abbr": "JFQA",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1017/s0022109026103147",
+    "url": "https://openalex.org/W3142847085",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Auditing, Earnings Management, Governance",
+      "Corporate Finance and Governance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Fast Filter Pruning Method for Neural Network Compression",
+    "authors": [
+      "Dongqi Wang",
+      "Weiwei Chen",
+      "Hua Cheng",
+      "Weihua Zhou",
+      "Xin Lin"
+    ],
+    "abstract": "The rapid adoption of artificial neural networks has led to the development of increasingly complex and large models. Although these models have achieved outstanding performance across various applications, their deployment and inference speed on devices with limited computing resources pose significant challenges. To address these issues, model compression techniques have been proposed to reduce model size while preserving performance. In this paper, we propose a two-stage filter pruning approach for model compression, designed to maximize filter diversity given a desired compression ratio. We interpret filter diversity from an information theory perspective and propose a combinatorial optimization model that selects a subset of filters aimed at retaining the maximum information of the original network. We frame the maximization of filter diversity as a p-dispersion problem and propose a polynomial-time algorithm that is within a factor of two of the optimal solution. Compared with state-of-the-art benchmarks in automated pruning methods, the proposed algorithm offers significant advantages in computational complexity and solution speed. History: Accepted by Ram Ramesh, Area Editor for Data Science &amp; Machine Learning. Funding: This work was supported by the National Natural Science Foundation of China [Grants 72192823, 72301172, 72394370:72394375, and 72495130:72495132], the Shanghai Jiao Tong University Office of Liberal Arts [Grant ZHWK2502], and the Zhejiang Key Laboratory of Decision Intelligence [Grant 2025E10006]. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2024.0991 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2024.0991 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1287/ijoc.2024.0991",
+    "url": "https://openalex.org/W7165762205",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Machine Learning and Data Classification",
+      "Stochastic Gradient Optimization Techniques",
+      "Face and Expression Recognition"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Navigating Entrepreneurial Orientation Paradoxes Under the Cross-Border Stigma: An Organizational Virtue Perspective",
+    "authors": [
+      "Yu Chang",
+      "Linwei Li",
+      "Ruiqi Wei"
+    ],
+    "abstract": "Abstract Emerging multinational enterprises (EMNEs) characterized by strong entrepreneurial orientation (EO) can generate cross-border value through their innovativeness, proactiveness, and risk-taking in international operations. However, evolving global dynamics and rising geopolitical tensions have increased pressures of cross-border stigmatization, significantly hindering EMNEs’ ability to leverage their EO. Grounded in paradox theory and organizational virtue, the study aims to explore how EMNEs can navigate the EO paradoxes within cross-border stigma contexts. Through an abductive longitudinal case study of a leading Chinese-headquartered valve manufacturing firm, we find that as stigma labels evolve from product to technology and finally to identity, they trigger three phase-specific EO paradoxes: expansion vs. contraction, innovation vs. commodification, and autonomy vs. control. To navigate these salient tensions, the firm enacts organizational virtue as a strategic practice. Specifically, we identify a mechanism where temperance-oriented values articulation guides the firm’s strategic actions through a dual process—internal capability development and external differentiation—both underpinned by the micro-mechanisms of emotional and desire temperance. With these findings, the study identifies a stigmatization trajectory from product to technology and further to identity stigma. It also reveals EO paradoxical tensions across different developmental stages of EMNEs under cross-border stigmatization. Furthermore, our study extends virtue research into the field of entrepreneurship at the organizational level. It establishes temperance as a source of strategic practice that enables sustainable international entrepreneurship by effectively balancing EO, thereby providing a virtue perspective for strategic management in complex environments.",
+    "journal_name": "Journal of Business Ethics",
+    "journal_abbr": "JBE",
+    "publication_date": "2026-06-24",
+    "doi": "https://doi.org/10.1007/s10551-026-06372-y",
+    "url": "https://openalex.org/W7165794964",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "International Business and FDI",
+      "International Student and Expatriate Challenges",
+      "Entrepreneurship Studies and Influences"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Resource Orchestration, Team Faultlines, and Entrepreneurial Resilience",
+    "authors": [
+      "Jian Guan",
+      "Shengyuan Lin",
+      "Justin Tan",
+      "Jiamin Dong"
+    ],
+    "abstract": "This study develops an integrated resource orchestration framework to examine how internal resource configurations shape entrepreneurial resilience in new ventures under crisis conditions. Specifically, we focus on bundles of social and technological resource slack and constraints and conceptualize entrepreneurial resilience as comprising two dimensions: stability (severity of loss) and flexibility (time to recovery). We argue that stability is primarily driven by a resource compensation logic, whereas flexibility is driven by a crisis-induced resource reconfiguration logic. Extending resource orchestration theory (ROT), we conceptualize entrepreneurial teams as the central actors of resource orchestration and introduce entrepreneurial team task-related faultlines (ETTF) as a key structural mechanism shaping how effectively resources are mobilized under disruption. Using a sample of 345 Chinese listed new ventures, we find that dual resource slack reduces severity of loss but slows recovery, whereas among constrained bundles, social resource slack combined with technological constraints enables both lower loss and faster recovery. Response surface analyses further show that greater misalignment between social and technological resources increases loss severity but shortens recovery time. In addition, ETTF moderates the effects of resource bundles on resilience outcomes by strengthening both compensatory coordination and reconfiguration capacity. This study advances ROT by showing that internal resource configurations shape entrepreneurial resilience through both bundle composition and misalignment, contingent on team structural conditions.",
+    "journal_name": "Entrepreneurship Theory and Practice",
+    "journal_abbr": "ETP",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1177/10422587261453883",
+    "url": "https://openalex.org/W7165649275",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Entrepreneurship Studies and Influences",
+      "Innovation and Knowledge Management",
+      "Family Business Performance and Succession"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Aspirations, performance feedback, and informal entrepreneurs' decision to formalize",
+    "authors": [
+      "Selorm Agbleze",
+      "Marcus M. Larsen"
+    ],
+    "abstract": "We develop a theory explaining the conditions influencing entrepreneurs' decisions to formalize versus remain informal. Building on the behavioral theory of the firm, we argue that formalization is a viable strategy for informal entrepreneurs with growth needs who perform below opportunity-based aspirations to generate new sources of revenue, and for entrepreneurs with survival needs who perform above necessity-based aspirations to secure a durable livelihood. Conversely, entrepreneurs performing above their opportunity-based aspirations avoid formalization to maintain informal advantages, whereas entrepreneurs performning below their necessity-based aspirations perceive survival as particularly salient and thus avoid formalization. Moreover, the likelihood of formalizing, as a function of the performance relative to both necessity- and opportunity-based aspirations, is moderated by the level of meso-institutional support for formalization. We contribute by conceptualizing formalization as a complex strategic decision surrounded by severe uncertainty with important consequences for informal entrepreneurship. This reconceptualization enables us to frame aspirations as an important source of heterogeneity among informal entrepreneurs, shaping how they evaluate and respond to the prospect of formalization.",
+    "journal_name": "Journal of Business Venturing",
+    "journal_abbr": "JBV",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1016/j.jbusvent.2026.106620",
+    "url": "https://openalex.org/W7165673442",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Innovation and Socioeconomic Development",
+      "Entrepreneurship Studies and Influences",
+      "Taxation and Compliance Studies"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Technology (Non)Emergence: How System Interdependencies Among Activities by Heterogeneous Actors Shaped Alternative Solar Technology Trajectories",
+    "authors": [
+      "Mara Guerra",
+      "Rajshree Agarwal"
+    ],
+    "abstract": "We examine industry and technology (non)emergence by integrating actor-centric and systems perspective literature streams. We use historical methods to analyze rich data tracking investments by actors spanning private, public, and academic sectors in the solar photovoltaics context. The industry took several decades after commercialization to emerge; moreover, silicon and thin film technologies experienced divergent fates despite firm takeoff. By uncovering critical interdependencies across activities by different actors, we show that, whereas attention by all actors to developing various elements of technological systems is necessary for emergence, it may not be sufficient. The industry emerged after activities by technology producers, industry associations, and government agencies ensured stable institutional support that stimulated latent demand (by utilities and end consumers) and created reinforcing loops among activities by technology producers and research institutes for solar technologies to become a viable alternative to fossil fuels. Moreover, silicon experienced additional reinforcing loops in demand-side and supply-side ecosystems, wherein technology producers and equipment manufacturers leveraged adjacent mature supply chains to meet demand-side scale and reliability requirements in fast growing markets. In contrast, thin film experienced balancing loops wherein nascent firm-specific supply side alliances could not address these demand side needs. These findings showcase how dominant designs may emerge even when there is no ex ante competitive dynamics among technology producers: Although silicon may have benefited from first mover advantage at the technology level, our study highlights that ecosystem first mover advantages of silicon relative to thin film were particularly salient in their divergent fates. Supplemental Material: The online appendices are available at https://doi.org/10.1287/orsc.2022.17185 .",
+    "journal_name": "Organization Science",
+    "journal_abbr": "OrgSci",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1287/orsc.2022.17185",
+    "url": "https://openalex.org/W7165627926",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Sustainability and Climate Change Governance",
+      "Innovation Diffusion and Forecasting",
+      "Economic and Technological Innovation"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Middle Managers' Interface Work: Exploring Micro‐Practices for Co‐Adoption of Emerging Ecosystem Value Propositions",
+    "authors": [
+      "Krithika Randhawa",
+      "Wim Vanhaverbeke",
+      "Mariano L.M. Heyden",
+      "Paavo Ritala"
+    ],
+    "abstract": "Abstract Emerging ecosystem value propositions require collective co‐adoption by heterogeneous stakeholders. Focusing on middle managers (MMs) in ecosystem emergence, we introduce the notion of MM interface work: a form of social‐symbolic work comprising discursive, relational, and material micro‐practices within and across cognitive, behavioural, regulatory, and political interfaces. Drawing on rich primary and secondary data collected over 5 years from six technology providers in the healthcare sector, we explain how these micro‐practices underpin the co‐adoption of an emerging ecosystem value proposition. Two key mechanisms drive this process: the integration of micro‐practices within each interface and the synergistic alignment of the micro‐practices across interfaces. Our study advances ecosystem and strategic leadership literatures by explaining how MMs may influence co‐adoption of an emerging ecosystem value proposition ‘from the middle‐out’.",
+    "journal_name": "Journal of Management Studies",
+    "journal_abbr": "JMS",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1111/joms.70124",
+    "url": "https://openalex.org/W7165659385",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Management and Organizational Studies",
+      "Environmental Sustainability in Business",
+      "Service and Product Innovation"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "high"
+  },
+  {
+    "title": "Market system curation: Placing care at the heart of markets",
+    "authors": [
+      "Finola Kerrigan",
+      "Chloe Preece",
+      "Andreas Chatzidakis"
+    ],
+    "abstract": "Abstract Amid growing imperatives for markets to advance equity, inclusion, and sustainability, we ask: how can market systems be reconfigured toward more socially and environmentally sustainable agendas? We develop an integrated account of care as a market capability. Through a longitudinal ethnographic study, we conceptualize market system curation as a mode of intervention enabling gentle market transformation. We show how care is enacted through the interrelated mechanisms of infusion , consolidation , and scaling out , and is sustained through their ongoing constituent practices. Infusion activates care through attunement, responsibilization and mutualization; consolidation stabilizes care through inscription, maintenance, and governance; and scaling out extends care through translation, extension, and codification, therefore influencing adjacent markets and field-level norms. In contrast to disruptive or oppositional approaches, market system curation demonstrates how markets can evolve from within. We offer guidance for organizations seeking to build inclusive and sustainable market systems supporting non-extractive, socially responsive markets.",
+    "journal_name": "Journal of the Academy of Marketing Science",
+    "journal_abbr": "JAMS",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1007/s11747-026-01167-z",
+    "url": "https://openalex.org/W7165658880",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Management and Organizational Studies",
+      "Global trade, sustainability, and social impact",
+      "Innovation and Socioeconomic Development"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "The spillover effect of private firm disclosure on public firms’ loan pricing",
+    "authors": [
+      "Fengqin Chen",
+      "Jeffrey Ng",
+      "Walid Saffar",
+      "DY Yang"
+    ],
+    "abstract": "Abstract We examine whether private firm disclosure affects the price that public firms pay for their bank loans. Using global data on syndicated loans, we find that private firm disclosure significantly reduces public firms’ loan spreads. This finding supports a positive information externalities view whereby private firm disclosure helps banks evaluate public borrowers’ credit risk within the industry context and reduces information asymmetry between banks and borrowers. Consistent with this mechanism, we find larger reductions in public firms’ loan spreads when banks have less information about the borrower or lower expected monitoring intensity, when public-firm borrowers are more informationally opaque, when private firms have greater economic importance in the industry, when private and public firms are more economically similar, or when a larger share of private firms in an industry have audited financial statements. We show that private firm disclosure generates positive externalities for the loan market by reducing information asymmetry.",
+    "journal_name": "Review of Accounting Studies",
+    "journal_abbr": "RAST",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1007/s11142-026-09964-1",
+    "url": "https://openalex.org/W7165680393",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Banking stability, regulation, efficiency",
+      "Corporate Finance and Governance",
+      "Auditing, Earnings Management, Governance"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Capital market regulation and human capital investment: evidence from SOX and accounting major choice",
+    "authors": [
+      "Yinghua Li",
+      "Haotian Shi",
+      "Stephen Teng Sun",
+      "Xiao Xiao"
+    ],
+    "abstract": "Abstract This paper analyzes the impact of the Sarbanes–Oxley (SOX) Act on individuals’ decisions to invest their human capital in regulatory compliance. Exploiting geographic variation in SOX-induced growth in the demand for accounting labor and rich survey data on college students, we find that freshmen from regions with greater public company presence exhibit a more marked increase in the propensity to major in accounting after the enactment of SOX. Consistent with the financial incentives mechanism, we find that students respond more to SOX when they have stronger pecuniary preferences, when they are better positioned to seize the financial rewards of accounting, and when they have better access to information about SOX-induced changes in monetary returns to the accounting major. Finally, regions with greater public company presence exhibit larger increases in local wages and employment in the accounting industry.",
+    "journal_name": "Review of Accounting Studies",
+    "journal_abbr": "RAST",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1007/s11142-026-09978-9",
+    "url": "https://openalex.org/W7165640469",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Auditing, Earnings Management, Governance",
+      "Accounting Education and Careers",
+      "Accounting and Organizational Management"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "The Evolution of Digital Platform Ecosystems: An Identity Domain Perspective",
+    "authors": [
+      "Panos Constantinides",
+      "Carmelo Cennamo",
+      "Aleksi Aaltonen"
+    ],
+    "abstract": "For managers, this research demonstrates that the long-term success of digital platform ecosystems requires identity-coherent orchestration. For example, Apple iOS’s identity domain around a seamless, premium user experience on the iOS ecosystem legitimizes Apple’s “walled garden” and vertical integration approach. Conversely, Google Android’s identity domain of data ubiquity drives Google’s horizontal scaling and proprietary control points. Platform sponsors are cautioned that deviating from their identity domain or appearing as incoherent to their partners and users—as seen in the failures of BlackBerry and Windows Phone—creates strategic dissonance that confuses participants and erodes competitive distinctiveness. For policymakers, this research challenges “one-size-fits-all” regulations, such as the European Union’s Digital Markets Act. Ex ante mandates may disproportionately undermine vertically integrated, privacy-centric models, like iOS, while leaving data-driven ecosystems, like Android, relatively unscathed. Effective antitrust policy must move beyond size thresholds (i.e., gatekeeper status classifications) to consider how the enforcement of ex ante and ex post regulatory approaches can account for the dynamic evolution of digital platform ecosystems as informed by their unique identity domain.",
+    "journal_name": "Information Systems Research",
+    "journal_abbr": "ISR",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1287/isre.2024.1022",
+    "url": "https://openalex.org/W7165652955",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Digital Platforms and Economics",
+      "Cybersecurity and Cyber Warfare Studies",
+      "Digital Innovation in Industries"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Culture Priming of Multicultural Individuals on Localized Websites: A Cultural Frame Switching Perspective",
+    "authors": [
+      "Muller Y. M. Cheung",
+      "Weiyin Hong",
+      "James Y.L. Thong"
+    ],
+    "abstract": "As businesses expand globally, effective website localization becomes crucial, especially in countries where consumers have diverse cultural backgrounds. Traditional website localization strategies focus on tailoring its content and design to the dominant culture of a country. Our research investigates the complexities of localizing websites for countries with multicultural consumers who identify with more than one culture. We found that successful website localization involves priming multicultural consumers with cultural cues (in the forms of language and image) to activate specific cultural identities, for example, individualism or collectivism. The activated culture of multicultural consumers can interact with various website design and content elements to affect multicultural consumers’ trust in the website and crowdfunding support. Our findings offer actionable insights for global businesses. By strategically implementing these insights in website localization, global companies can better navigate diverse consumer landscapes and foster stronger connections with multicultural consumers.",
+    "journal_name": "Information Systems Research",
+    "journal_abbr": "ISR",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1287/isre.2024.1665",
+    "url": "https://openalex.org/W7165612868",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Knowledge Management and Sharing",
+      "Digital Marketing and Social Media",
+      "Cultural Differences and Values"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Buy Online, Pick Up, or Deliver from Store: Why Would an Online Retail Platform with Third-Party Sellers Offer It?",
+    "authors": [
+      "Ping Tang",
+      "Jianqing Chen",
+      "Srinivasan Raghunathan"
+    ],
+    "abstract": "Digital technologies are enabling online retail platforms to connect consumers not only to sellers’ online offerings but also to sellers’ physical stores through options such as local pickup and store-based delivery, which we refer to as local selling. This study examines why a platform would adopt such a strategy even when it gives up fulfillment-related revenue. We show that local selling can still increase platform profits by raising sales commission revenue. By allowing some consumers to pick up orders locally, the platform reveals geographic differences among consumers that traditional online fulfillment masks. This can soften price competition between sellers, increase prices, and benefit both the platform and sellers. Consumers, however, do not necessarily benefit, even when they are offered more fulfillment options. The findings suggest that local selling is not merely a service innovation that improves convenience. It can also be a strategic tool that helps platforms manage seller competition and extract surplus. For practice, the results indicate that platforms should tailor local-selling strategies to product and market conditions rather than apply them uniformly. For policy, the study highlights that expanding consumer choice does not necessarily improve consumer welfare, and that platform innovations should also be evaluated based on their effects on competition, pricing, and surplus allocation.",
+    "journal_name": "Information Systems Research",
+    "journal_abbr": "ISR",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1287/isre.2025.1869",
+    "url": "https://openalex.org/W7165688071",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Consumer Market Behavior and Pricing",
+      "Digital Platforms and Economics",
+      "Consumer Retail Behavior Studies"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Solution Path of Time-Varying Markov Random Fields with Discrete Regularization",
+    "authors": [
+      "Salar Fattahi",
+      "Andrés Gómez"
+    ],
+    "abstract": "We study the problem of inferring sparse time-varying Markov random fields (MRFs) with discrete regularization on the parameters. Because of the intractability of discrete regularization, most approaches for solving this problem rely on maximum-likelihood estimation (MLE) with relaxed regularization, which neither results in ideal statistical properties nor scales to the dimensions encountered in realistic settings. In this paper, we address these challenges by resorting to a new class of constrained optimization problems with exact, discrete regularization. Despite nonconvex and discrete nature of our formulation, we show that it can be solved efficiently and parametrically for all sparsity levels. The efficient and parametric characterization of the solution path renders our approach highly suitable for cross-validation, where parameter estimation is required for varying regularization values. Utilizing our algorithm, we can recover the complete solution path for instances of time-varying MRFs featuring more than 30 million variables in less than 12 minutes on a standard laptop computer. History: Accepted by Andrea Lodi, Area Editor for Design &amp; Analysis of Algorithms–Discrete. Funding: This work was supported by the Office of Naval Research [Grants N000142612117 and N000142612074], the Air Force Office of Scientific Research [Grant FA95502410086], the Division of Mathematical Sciences [Grants 2152776 and 2152777], and the Division of Computing and Communication Foundations [Grants 2006762 and 2337776]. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2024.0850 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2024.0850 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1287/ijoc.2024.0850",
+    "url": "https://openalex.org/W4385327588",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Statistical Methods and Inference",
+      "Sparse and Compressive Sensing Techniques",
+      "Bayesian Methods and Mixture Models"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Multiagent Environments for Vehicle Routing Problems",
+    "authors": [
+      "Ricardo Ribeiro Gama",
+      "Ricardo Cunha",
+      "Daniel Fuertes",
+      "Carlos R. del-Blanco",
+      "Hugo L. Fernandes"
+    ],
+    "abstract": "Research on reinforcement learning (RL) approaches for discrete optimization problems has increased considerably, extending RL to areas classically dominated by operations research (OR). Vehicle routing problems are a good example of discrete optimization problems with high practical relevance for which RL techniques have achieved notable success. Despite these advances, open-source development frameworks remain scarce, hindering both algorithm testing and objective comparison of results. This situation ultimately slows down progress in the field and limits the exchange of ideas between the RL and OR communities. Here, we propose MAEnvs4VRP library, a unified framework for multiagent vehicle routing environments that supports classical, dynamic, stochastic, and multitask problem variants within a single modular design. The library, built on PyTorch, provides a flexible and modular architecture design that facilitates customization and the incorporation of new routing problems. It follows the agent environment cycle (“AEC”) games model and features an intuitive API, enabling rapid adoption and seamless integration into existing reinforcement learning frameworks. History: Accepted by Ted Ralphs, Area Editor for Software Tools. Funding: R. Gama gratefully acknowledges the Research Centre in Digital Services (CISeD), the Instituto Politécnico de Viseu, and the Foundation for Science and Technology, I.P. (FCT) for their support during the work [Grants UIDB/05583/2020 and 2023.13303.CPCA.A0]. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2025.1211 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2025.1211 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1287/ijoc.2025.1211",
+    "url": "https://openalex.org/W4404649425",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Advanced Manufacturing and Logistics Optimization",
+      "Optimization and Packing Problems",
+      "Vehicle Routing Optimization Methods"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Online Anger, Offline Costs: How Consumer Complaints Create Labor Cost Stickiness",
+    "authors": [
+      "Haowen Tian",
+      "Huili Zhi",
+      "Sirui Wu"
+    ],
+    "abstract": "",
+    "journal_name": "Journal of Business Ethics",
+    "journal_abbr": "JBE",
+    "publication_date": "2026-06-23",
+    "doi": "https://doi.org/10.1007/s10551-026-06367-9",
+    "url": "https://openalex.org/W7165630750",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Cyberloafing and Workplace Behavior",
+      "Work-Family Balance Challenges",
+      "Employer Branding and e-HRM"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "The Spillover Effect of Social Capital Along the Supply Chain: Evidence from the Cost of Debt",
+    "authors": [
+      "Yuyan Guan",
+      "Xing Li",
+      "Gerald J. Lobo",
+      "Haibin Wu"
+    ],
+    "abstract": "Prior research indicates that social capital constrains opportunistic behavior and facilitates cooperation in bilateral relationships. We hypothesize that firms conducting business with high social capital customers are perceived by their banks as having lower supply chain risk and document a negative association between suppliers’ loan spreads and the social capital of their major customers. Our cross-sectional analyses show that the negative association is stronger when (1) suppliers make more relationship-specific investments or have weaker bargaining power; and (2) customers’ information environment is more opaque. Further analyses reveal that customers’ social capital has a positive impact on their supplier firms’ nonpricing loan terms. Taken together, our findings indicate that customers’ social capital engenders a spillover effect along the supply chain, enabling suppliers to enjoy lower borrowing costs and more favorable nonpricing loan terms by mitigating the hold-up risks they face. This paper was accepted by Ranjani Krishnan, accounting. Funding: Y. Guan received financial support from Nanyang Technological University [Start-up Grant 021234-00001]. X. Li received financial support from the National Natural Science Foundation of China [Grant 72302180] and the China Postdoctoral Science Foundation [Grants 2025T180187 and 2021M692542]. H. Wu received financial support from City University of Hong Kong. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2024.04778 .",
+    "journal_name": "Management Science",
+    "journal_abbr": "MS",
+    "publication_date": "2026-06-22",
+    "doi": "https://doi.org/10.1287/mnsc.2024.04778",
+    "url": "https://openalex.org/W7165545815",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Supply Chain Resilience and Risk Management",
+      "Working Capital and Financial Performance",
+      "Supply Chain and Inventory Management"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "medium"
+  },
+  {
+    "title": "Grateful leaders and attentive followers: How grateful attention transmits the cascade of gratitude expressions to strengthen coworker relationships.",
+    "authors": [
+      "Lauren Rachel Locklear",
+      "Meghan Kane",
+      "Mark G. Ehrhart"
+    ],
+    "abstract": "Leader gratitude expressions are widely viewed as a powerful tool to build relationships with and foster the well-being of followers. The present research moves beyond the impact of that gratitude to address whether and how leader gratitude spreads beyond immediate subordinates to influence others throughout the organizational hierarchy. Existing perspectives suggest that leader behaviors may spread via behavioral imitation or emotional contagion, yet gratitude-an appraisal-dependent emotion-likely requires distinct cognitive processes to propagate. Integrating gratitude research with social information processing theory (Salancik & Pfeffer, 1978), we propose a novel pathway of gratitude trickle-down effects, grateful attention, defined as the allocation of attention toward gratitude-inducing stimuli in the workplace, including interpersonal and environmental cues. We argue that witnessing leader gratitude expressions shapes followers' attentional deployment, increasing followers' recognition of benefaction events and promoting their own gratitude expressions, which subsequently improves the quality of their relationships with coworkers. Across two preregistered field studies and a preregistered yoked experimental causal chain study, we competitively test grateful attention alongside social learning (leader emulation) and emotional contagion (felt gratitude). Results consistently demonstrate that grateful attention uniquely transmits the cascading effects of leader gratitude expressions beyond traditional behavioral and emotional explanations. These findings advance theory by identifying an information processing function of gratitude and clarify how leader gratitude expressions can catalyze the spread of gratitude throughout organizations. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+    "journal_name": "Journal of Applied Psychology",
+    "journal_abbr": "JAP",
+    "publication_date": "2026-06-22",
+    "doi": "https://doi.org/10.1037/apl0001398",
+    "url": "https://openalex.org/W7165566140",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Leadership, Courage, and Heroism Studies",
+      "Psychological Well-being and Life Satisfaction",
+      "Grit, Self-Efficacy, and Motivation"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Contextual Stochastic Vehicle Routing with Time Windows",
+    "authors": [
+      "Breno Serrano",
+      "Alexandre M. Florio",
+      "Stefan Minner",
+      "Maximilian Schiffer",
+      "Thibaut Vidal"
+    ],
+    "abstract": "We study the vehicle-routing problem with time windows (VRPTW) and stochastic travel times, in which the decision-maker observes related contextual information, represented as feature variables, before making routing decisions. Despite the extensive literature on stochastic VRPs, the integration of feature variables has received limited attention in this context. We introduce the conditional stochastic VRPTW, which minimizes the total transportation cost and expected late arrival penalties conditioned on the observed features. Because the joint distribution of travel times and features is unknown, we present novel data-driven prescriptive models that use historical data to provide an approximate solution to the problem. We distinguish the prescriptive models between point-based approximation, sample average approximation, and penalty-based approximation, each taking a different perspective on dealing with stochastic travel times and features. We develop specialized branch-price-and-cut algorithms to solve these data-driven prescriptive models. In our computational experiments, we compare the out-of-sample cost performance of different methods on instances with up to 100 customers. Our results show that, surprisingly, a feature-dependent sample average approximation outperforms existing and novel methods in most settings. History: Accepted by Andrea Lodi, Area Editor for Design &amp; Analysis of Algorithms-Discrete. Funding: This work was supported by Deutsche Forschungsgemeinschaft [GRK2201/277991500] and by Calcul Québec (calculquebec.ca) and the Digital Research Alliance of Canada (alliancecan.ca). Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2025.1189 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2025.1189 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-06-22",
+    "doi": "https://doi.org/10.1287/ijoc.2025.1189",
+    "url": "https://openalex.org/W4391831404",
+    "open_access": true,
+    "cited_by_count": 2,
+    "topics": [
+      "Vehicular Ad Hoc Networks (VANETs)",
+      "Advanced Manufacturing and Logistics Optimization",
+      "Transportation and Mobility Innovations"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Entropic-Based Robust Vehicle Rental Revenue Management with Substitution and Repositioning",
+    "authors": [
+      "Zhu Meng",
+      "C.Y. Fu",
+      "Ning Zhu"
+    ],
+    "abstract": "This paper investigates the practical inventory management challenges faced by the vehicle rental industry, which arise from the random arrival of orders and lead times before demand occurs, as well as the uncertainty and dynamic nature of cancellations and rental durations after demand is realized. To ensure on-demand rental services while mitigating the impact of randomness on inventory stability, the industry usually employs substitution service and inventory repositioning. We propose a tractable robust approach featuring an entropic risk measure. This approach jointly optimizes substitution service and inventory repositioning, addressing the maximization of revenue under varied risk-aversion preferences while safeguarding against multiple uncertainties and misspecification. Numerous numerical experiments constructed by real-world data exhibit that our model achieves 16% higher average weekly revenues compared with the expectation optimization benchmark model. Compared with the sample average approximation model, which disregards the variant nature of probability transitions, the model can achieve higher revenue with fewer vehicle inventories. Besides, in contrast to repositioning, our model is inclined to enhance the system’s revenue robustness by increasing the substitution ratio. History: Accepted by Pascal Van Hentenryck, Area Editor for Computational Modeling: Methods &amp; Analysis. Funding: C. Fu is supported by the National Natural Science Foundation of China [Grants 72401229, 72310107003, 72271201]. N. Zhu is supported by the National Natural Science Foundation of China [Grant 72471163] and the Humanities and Social Science Fund of Ministry of Education of China [Grant 25JZD038]. Supplemental Material: The software that supports the findings of this study is available within the paper and its Supplemental Information ( https://pubsonline.informs.org/doi/suppl/10.1287/ijoc.2024.1086 ) as well as from the IJOC GitHub software repository ( https://github.com/INFORMSJoC/2024.1086 ). The complete IJOC Software and Data Repository is available at https://informsjoc.github.io/ .",
+    "journal_name": "INFORMS journal on computing",
+    "journal_abbr": "IJOC",
+    "publication_date": "2026-06-22",
+    "doi": "https://doi.org/10.1287/ijoc.2024.1086",
+    "url": "https://openalex.org/W7165593764",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Supply Chain and Inventory Management",
+      "Transportation and Mobility Innovations",
+      "Vehicle Routing Optimization Methods"
+    ],
+    "source": "openalex",
+    "in_ft50": false,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Online Selection with Uncertain Disruption",
+    "authors": [
+      "Yuhong Xu",
+      "Süleyman Kerimov",
+      "Sebastian Perez-Salazar"
+    ],
+    "abstract": "Online Selection with Uncertain Disruption Many digital and service platforms must decide whether to accept a current request or wait for a potentially better one. This trade-off becomes more challenging when serving a request may unexpectedly disrupt future operations. In the paper “Online Selection with Uncertain Disruption,” Yihua Xu, Süleyman Kerimov, and Sebastian Perez-Salazar introduce a model for such settings, where a decision maker observes values sequentially and each accepted value may trigger a disruption that stops the process. The paper develops simple threshold-based algorithms and evaluates them through competitive analysis against a clairvoyant benchmark that knows all values but still faces disruption uncertainty. The authors show that a nonadaptive single-threshold algorithm achieves the tight competitive ratio [Formula: see text], whereas adaptive threshold policies improve the asymptotic guarantee to approximately 0.745. The results connect disruption-aware online selection with classical prophet inequalities and quantify the value of adaptivity under operational uncertainty.",
+    "journal_name": "Operations Research",
+    "journal_abbr": "OR",
+    "publication_date": "2026-06-22",
+    "doi": "https://doi.org/10.1287/opre.2025.1936",
+    "url": "https://openalex.org/W4416608697",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Optimization and Search Problems",
+      "Advanced Bandit Algorithms Research",
+      "Game Theory and Applications"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Frontiers in Operations: A Moment for Reflection: Debiasing Service Evaluations",
+    "authors": [
+      "Hallie S. Cho",
+      "Dawson Kaaua"
+    ],
+    "abstract": "Problem definition: Service quality is assessed with objective and subjective measures. Objective measures include queue length/wait times, service times, and service failures, whereas subjective measures include service evaluations and social media commentary. Subjective measures are often easier to collect, requiring no sophisticated tracking technology, and can capture multiple dimensions of the service experience in a single response. However, subjective data are prone to bias. We focus on bridging the gap between objective and subjective measures of service quality by reducing bias in service evaluations. The structure of service evaluations is consistent across organizations: star ratings are collected before comments. We propose a simple intervention—reversing this order—to mitigate bias in star ratings because the process of writing provides time and space for the evaluator to reflect on their experience. Methodology/results: We conducted an experiment where participants received a sequence-based service, with the same overall level of service, from servers who varied in their demographic characteristics. Following the service, participants evaluated the performance of the servers with the order of star ratings and comments randomized. We find no evidence of demographic bias toward the servers but find that the sequence of good and bad experiences in the service leads to biased star ratings. Most importantly, we find that collecting comments prior to star ratings mitigates the sequential bias in star ratings because of participants reflecting on the service experience. Managerial implications: We show that star ratings can be biased if collected in the traditional manner and that this bias can be reduced if comments are collected first. Implementing this change to service evaluations could help to ensure that the job performance of human servers is more accurately and fairly assessed. For artificial intelligence service systems (i.e., AI servers), this change can provide a simple way to debias training data. History: This paper has been accepted in the Manufacturing &amp; Service Operations Management Frontiers in Operations Initiative. Supplemental Material: The online appendix is available at https://doi.org/10.1287/msom.2025.0060 .",
+    "journal_name": "Manufacturing & Service Operations Management",
+    "journal_abbr": "MSOM",
+    "publication_date": "2026-06-22",
+    "doi": "https://doi.org/10.1287/msom.2025.0060",
+    "url": "https://openalex.org/W7165551179",
+    "open_access": false,
+    "cited_by_count": 0,
+    "topics": [
+      "Software System Performance and Reliability",
+      "Mobile Crowdsensing and Crowdsourcing",
+      "Big Data and Business Intelligence"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": true,
+    "innovation_relevance": "low"
+  },
+  {
+    "title": "Practice-Dependent Governance of AI",
+    "authors": [
+      "Elsa Kugelberg",
+      "Henrik D. Kugelberg"
+    ],
+    "abstract": "Abstract Recent advances in machine learning have made it feasible to deploy AI systems in many different contexts. When machines act without human input, they expose people to risks. Within business ethics, the dominant framework for addressing such risks has been the moral machine thesis: the idea that autonomous systems should emulate what is morally right in human interpersonal decision-making. Recently, it has been suggested that this approach should also guide regulation. Moral machine regulation is the view that the right regulatory approach to AI is to determine the correct choice in individual situations and craft regulation from these judgements. This paper argues that this view is mistaken. What is right in an individual case is not necessarily right when aggregated into a system of regulation, and what is right can depend on the regulatory framework itself. Instead, we argue for practice-dependent governance of AI. On this view, regulation of AI systems should aim to ensure that the practices in which they are deployed are just and justifiable to those affected, in light of the values and purposes those practices are meant to serve.",
+    "journal_name": "Journal of Business Ethics",
+    "journal_abbr": "JBE",
+    "publication_date": "2026-06-22",
+    "doi": "https://doi.org/10.1007/s10551-026-06377-7",
+    "url": "https://openalex.org/W7165565882",
+    "open_access": true,
+    "cited_by_count": 0,
+    "topics": [
+      "Ethics and Social Impacts of AI",
+      "Neuroethics, Human Enhancement, Biomedical Innovations",
+      "Psychology of Moral and Emotional Judgment"
+    ],
+    "source": "openalex",
+    "in_ft50": true,
+    "in_utd24": false,
+    "innovation_relevance": "medium"
+  }
+]
