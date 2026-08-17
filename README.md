@@ -102,10 +102,10 @@ Papers are fetched from [**OpenAlex**](https://openalex.org) (primary, 100K req/
 <!-- HISTORY_START -->
 | Date | Report | Data |
 |---|---|---|
+| 2026-08-17 | [Report](archives/2026-08-17/report.md) | [JSON](archives/2026-08-17/data.json) |
 | 2026-08-03 | [Report](archives/2026-08-03/report.md) | [JSON](archives/2026-08-03/data.json) |
 | 2026-07-13 | [Report](archives/2026-07-13/report.md) | [JSON](archives/2026-07-13/data.json) |
 | 2026-06-29 | [Report](archives/2026-06-29/report.md) | [JSON](archives/2026-06-29/data.json) |
-| 2026-06-15 | [Report](archives/2026-06-15/report.md) | [JSON](archives/2026-06-15/data.json) |
 <!-- HISTORY_END -->
 
 ## License
